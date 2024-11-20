@@ -1,5 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import BlurFade from "./_components/blur-fade";
+import NavBar from "./_components/NavBar";
+import Footer from "./_components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -21,9 +24,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
       >
+        <BlurFade delay={0.2}>
+                <NavBar />
+            </BlurFade>
         {children}
+        <Footer />
       </body>
     </html>
   );

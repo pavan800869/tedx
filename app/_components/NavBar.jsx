@@ -10,6 +10,14 @@ function classNames(...classes) {
 }
 
 function NavBar() {
+  const navLinks = [
+    { label: 'Home', href: '/' },
+    { label: 'Events', href: '#events' },
+    { label: 'About', href: '#about' },
+    { label: 'Speakers', href: '/speakers' },
+    { label: 'Partners', href: '#partners' },
+    { label: 'Contact', href: '#contact' },
+  ];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Close menu when screen size changes to desktop
@@ -19,45 +27,43 @@ function NavBar() {
         setIsMenuOpen(false);
       }
     };
-
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   // Prevent scroll when mobile menu is open
   useEffect(() => {
-    if (isMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
+    document.body.style.overflow = isMenuOpen ? 'hidden' : 'unset';
   }, [isMenuOpen]);
 
   return (
-    <Disclosure as="nav" className="bg-[#010100] w-full z-50 lg:sticky top-0 md:py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative flex h-16 items-center justify-between py-4 md:py-6">
+    <Disclosure as="nav" className="bg-black w-full z-50 lg:sticky top-0 shadow-md pt-4">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0 ">
+          <div className="flex-shrink-0">
             <Image
-              src={'/tedx/logo-white.png'}
+              src="/tedx/logo-white.png"
               alt="TEDx Logo"
-              width={400}
+              width={200}
               height={400}
-              className="w-auto h-8 md:h-20 lg:h-20 "
+              className="h-10 md:h-14 lg:h-16 w-auto"
               priority
             />
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center gap-8">
-            <div className="flex gap-8 text-base font-bold text-white">
-              <a href="" className="transition-all duration-200 hover:opacity-80">
-                <h1 className="underline underline-offset-8">Home</h1>
-              </a>
-              <a href="" className="transition-all duration-200 hover:opacity-80">
-                <h1>Speakers</h1>
-              </a>
+          <div className="hidden lg:flex gap-10 items-center">
+            <div className="flex gap-8 text-sm md:text-base font-semibold text-white">
+              {navLinks.map((item, index) => (
+                <a
+                  key={index}
+                  href={item.href}
+                  className="hover:underline underline-offset-8 hover:text-gray-300 transition-all duration-200"
+                >
+                  {item.label}
+                </a>
+              ))}
             </div>
             <a
               href="https://tally.so/r/3N46PQ"
@@ -65,52 +71,51 @@ function NavBar() {
               rel="noopener noreferrer"
               className="block"
             >
-              <button className="border-2 px-8 py-4 rounded-full border-[#fa3f7b] text-[#fa3f7b] hover:bg-[#fa3f7b] hover:text-white transition-all duration-300">
-                speaking at <span className="font-bold">Tedx AnuragU</span>
+              <button className="border-2 px-6 py-2 font-bold border-red-600 bg-red-600 text-white hover:bg-red-700 transition-all duration-300">
+                Register
               </button>
             </a>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="absolute inset-y-0 right-0  flex items-center sm:hidden">
+          <div className="flex lg:hidden">
             <DisclosureButton
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             >
               <span className="sr-only">Open main menu</span>
-              <Bars3Icon aria-hidden="true" className="block size-6 group-data-[open]:hidden" />
-              <XMarkIcon aria-hidden="true" className="hidden size-6 group-data-[open]:block" />
+              {isMenuOpen ? (
+                <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+              ) : (
+                <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+              )}
             </DisclosureButton>
           </div>
         </div>
       </div>
 
       {/* Mobile Menu */}
-      <DisclosurePanel className="sm:hidden">
-        <div className="space-y-1 px-2 pb-3 pt-2">
-          <a
-            href=""
-            className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-[#fa3f7b] hover:text-white"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Home
-          </a>
-          <a
-            href=""
-            className="block rounded-md px-3 py-2 text-base font-medium text-white hover:bg-[#fa3f7b] hover:text-white"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Speakers
-          </a>
+      <DisclosurePanel className="lg:hidden">
+        <div className="space-y-4 px-6 pb-4 pt-2">
+          {["Home", "Speakers"].map((item, index) => (
+            <a
+              key={index}
+              href="#"
+              className="block text-white text-base font-semibold rounded-md px-3 py-2 hover:bg-gray-700 hover:text-white"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {item}
+            </a>
+          ))}
           <a
             href="https://tally.so/r/3N46PQ"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsMenuOpen(false)}
-            className="w-full"
+            className="block"
           >
-            <button className="w-full border-2 px-6 py-3 rounded-full border-[#fa3f7b] text-[#fa3f7b] hover:bg-[#fa3f7b] hover:text-white transition-all duration-300">
-              speaking at <span className="font-bold">Tedx AnuragU</span>
+            <button className="w-full border-2 px-6 py-2 rounded-full font-semibold border-red-600 bg-red-600 text-white hover:bg-red-700 transition-all duration-300">
+              Register Now
             </button>
           </a>
         </div>

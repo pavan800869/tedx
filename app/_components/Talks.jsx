@@ -9,7 +9,7 @@ function TalkSection() {
   ));
 
   return (
-    (<div className="w-full h-full py-20 bg-black">
+    (<div className="w-full h-fit py-20 bg-black">
       <h2
         className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-200 font-sans">
         Featured Talks at <span className="text-red-500">TedxAnuragU</span>
@@ -64,21 +64,21 @@ const data = [
   {
     category: " Sekhar Kammula ",
     title: "Empathy – Highest Form of Knowledge |",
-    src: "/tedx/speakers/1.svg",
+    src: "/tedx/speakers/1.webp",
     content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
 
   },
   {
     category: " Sekhar Kammula ",
     title: "Empathy – Highest Form of Knowledge |",
-    src: "/tedx/speakers/2.svg",
+    src: "/tedx/speakers/2.webp",
     content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
 
   },
   {
     category: " Sekhar Kammula ",
     title: "Empathy – Highest Form of Knowledge |",
-    src: "/tedx/speakers/3.svg",
+    src: "/tedx/speakers/3.webp",
     content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
 
   },
@@ -86,21 +86,21 @@ const data = [
   {
     category: " Sekhar Kammula ",
     title: "Empathy – Highest Form of Knowledge |",
-    src: "/tedx/speakers/4.svg",
+    src: "/tedx/speakers/4.webp",
     content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
 
   },
   {
     category: "Nagarjuna Muppala ",
     title: "Autonomy, Reclaiming Autonomy",
-    src: "/tedx/speakers/5.svg",
+    src: "/tedx/speakers/5.webp",
     content: <DummyContent source={"https://youtu.be/_0zwG2fwLOU"} />,
 
   },
   {
     category: " Sekhar Kammula ",
     title: "Empathy – Highest Form of Knowledge |",
-    src: "/tedx/speakers/1.svg",
+    src: "/tedx/speakers/1.webp",
     content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
 
   },

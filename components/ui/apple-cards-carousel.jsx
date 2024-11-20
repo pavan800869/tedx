@@ -80,7 +80,7 @@ export const Carousel = ({
           onScroll={checkScrollability}>
           <div
             className={cn(
-              "absolute right-0  z-[1000] h-auto  w-[5%] overflow-hidden bg-gradient-to-l"
+              "absolute right-0  z-[1000] h-[auto]  w-[5%] overflow-hidden bg-gradient-to-l"
             )}></div>
 
           <div
@@ -225,7 +225,10 @@ export const Card = ({
       <BlurImage
         src={card.src}
         alt={card.title}
-        fill
+        width={500}
+        height={
+          500
+        }
         className="object-cover absolute z-10 inset-0" />
     </motion.button>
   </>);
@@ -241,16 +244,21 @@ export const BlurImage = ({
 }) => {
   const [isLoading, setLoading] = useState(true);
   return (
-    (<Image
-      className={cn("transition duration-300", isLoading ? "blur-sm" : "blur-0", className)}
+    <Image
+      className={cn(
+        "transition duration-300",
+        isLoading ? "blur-sm scale-105" : "blur-0 scale-100",
+        className
+      )}
       onLoad={() => setLoading(false)}
       src={src}
-      width={width}
-      height={height}
-      loading="lazy"
-      decoding="async"
+      width={width || 500} // Provide a reasonable fallback for width
+      height={height || 500} // Provide a reasonable fallback for height
+      alt={alt || "Background of a beautiful view"}
+      placeholder="blur" // Use Next.js blur placeholder for better UX
       blurDataURL={typeof src === "string" ? src : undefined}
-      alt={alt ? alt : "Background of a beautiful view"}
-      {...rest} />)
+      priority // Load above-the-fold images faster
+      {...rest}
+    />
   );
 };

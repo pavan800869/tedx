@@ -33,10 +33,8 @@ export default function Home() {
       
     
     
-    <main className="bg-[#010100] relative h-[200vh]">
-      <BlurFade delay={0.2}>
-        <NavBar />
-      </BlurFade>
+    <main className="bg-black relative h-[200vh]">
+      
       <BlurFade delay={0.4}>
         <HeroSection />
       </BlurFade>
@@ -44,12 +42,12 @@ export default function Home() {
       <Sponsors />
       <TalksSection />
       <EventRegistration />
-      <SpeakerCards />
+      
       <Query />
       <TeamCards />
       {/* <Maps /> */}
-      <Footer />
-    // </main>
+      
+     </main>
     
   );
 }

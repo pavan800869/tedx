@@ -19,7 +19,7 @@ const SpeakerCards = () => {
         },
         {
             name: "Ms. Anvitha Kollipara",
-            title: "founder of the non-profit organization Care Good.",
+            title: "Founder of the non-profit organization Care Good",
             image: "/tedx/anvitha.jpeg"
         },
         {
@@ -29,17 +29,17 @@ const SpeakerCards = () => {
         },
         {
             name: "Naman Vankdari",
-            title: "Advocate, Asst professor and co-founder(The Indian Conclave)",
+            title: "Advocate, Asst professor and Co-founder (The Indian Conclave)",
             image: "/tedx/naman.jpg"
         },
         {
             name: "Nikhil Gunda",
-            title: "entrepreneur, co-founder of an innovative transportation startup",
+            title: "Entrepreneur, Co-founder of an innovative transportation startup",
             image: "/tedx/nikhil.jpeg"
         },
         {
             name: "Pullela Gopichand",
-            title: "Indian badminton player and Chief National Coach for the India national badminton team.",
+            title: "Indian badminton player and Chief National Coach for the India national badminton team",
             image: "/tedx/pg.png"
         },
         {
@@ -49,7 +49,7 @@ const SpeakerCards = () => {
         },
         {
             name: "Zain Samdani",
-            title: "Scientist, Artist, Speaker and Inventor of ExoHeal.",
+            title: "Scientist, Artist, Speaker and Inventor of ExoHeal",
             image: "/tedx/zain.jpg"
         },
     ];
@@ -64,11 +64,11 @@ const SpeakerCards = () => {
                     Stay tuned for speaker announcements
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
                     {speakers.map((speaker, index) => (
-                        <div key={index} className="flex flex-col items-center p-8">
+                        <div key={index} className="flex flex-col items-center p-4">
                             <div className="relative group">
-                                <div className="relative w-52 h-52 rounded-full overflow-hidden bg-gradient-to-t from-[#fa3f7b] to-[#f10f48] p-[4px]">
+                                <div className="relative w-32 h-32 sm:w-36 sm:h-36 lg:w-52 lg:h-52 rounded-full overflow-hidden bg-gradient-to-t from-[#fa3f7b] to-[#f10f48] p-[4px]">
                                     <div className="w-full h-full rounded-full overflow-hidden bg-white">
                                         <img
                                             src={speaker.image}
@@ -79,26 +79,23 @@ const SpeakerCards = () => {
                                         <div className="absolute inset-0 bg-pink-500 opacity-0 group-hover:opacity-40 transition-opacity duration-300 rounded-full"></div>
                                     </div>
                                 </div>
-
                             </div>
-                            <h2 className="text-pink-500 text-xl font-bold mt-4 text-center">
+                            <h2 className="text-pink-500 text-base sm:text-lg lg:text-xl font-bold mt-4 text-center">
                                 {speaker.name}
                             </h2>
-                            <p className="text-white text-center mt-2 max-w-xs">
+                            <p className="text-white text-center mt-2 max-w-xs text-sm sm:text-base">
                                 {speaker.title}
                             </p>
                         </div>
                     ))}
-
                 </div>
 
             </div>
-            <div className='flex items-center justify-center'> 
-                <button className=" font-bold border-2 px-12 py-2 border-white bg-white text-black rounded-full ">
-                Get Tickets
-            </button>
+            <div className='flex items-center justify-center mt-6'>
+                <button className="font-bold border-2 px-8 sm:px-12 py-2 border-white bg-white text-black rounded-full">
+                    Get Tickets
+                </button>
             </div>
-
         </div>
     );
 };
