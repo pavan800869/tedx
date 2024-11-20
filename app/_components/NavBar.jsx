@@ -97,14 +97,14 @@ function NavBar() {
       {/* Mobile Menu */}
       <DisclosurePanel className="lg:hidden">
         <div className="space-y-4 px-6 pb-4 pt-2">
-          {["Home", "Speakers"].map((item, index) => (
+          {navLinks.map((item, index) => (
             <a
               key={index}
-              href="#"
+              href={item.href}
               className="block text-white text-base font-semibold rounded-md px-3 py-2 hover:bg-gray-700 hover:text-white"
               onClick={() => setIsMenuOpen(false)}
             >
-              {item}
+              {item.label}
             </a>
           ))}
           <a

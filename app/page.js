@@ -40,12 +40,13 @@ export default function Home() {
         <HeroSection />
       </BlurFade>
       {/* <LandingPage /> */}
-      <Sponsors />
+      
       <TEDxStatsPage />
       <TalksSection />
       {/* <EventRegistration /> */}
       
       <Query />
+      <Sponsors />
       <Footer />
       
       {/* <Maps /> */}
