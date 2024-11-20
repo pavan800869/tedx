@@ -69,6 +69,7 @@ function HeroSection() {
 
             >
                 <video
+                    priority
                     autoPlay
                     muted
                     loop
