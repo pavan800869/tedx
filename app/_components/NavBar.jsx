@@ -42,9 +42,9 @@ function NavBar() {
             <Image
               src={'/tedx/logo-white.png'}
               alt="TEDx Logo"
-              width={200}
-              height={200}
-              className="w-auto h-8 md:h-10 lg:h-12 "
+              width={400}
+              height={400}
+              className="w-auto h-8 md:h-20 lg:h-20 "
               priority
             />
           </div>
