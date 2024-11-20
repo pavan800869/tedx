@@ -14,6 +14,7 @@ import { ReactLenis } from 'lenis/react'
 import Maps from "./_components/Maps";
 import TalksSection from "./_components/Talks";
 import LandingPage from "./_components/LandingPage";
+import TEDxStatsPage from "./_components/Stats";
 
 
 export default function Home() {
@@ -40,11 +41,12 @@ export default function Home() {
       </BlurFade>
       {/* <LandingPage /> */}
       <Sponsors />
+      <TEDxStatsPage />
       <TalksSection />
       <EventRegistration />
       
       <Query />
-      <TeamCards />
+      
       {/* <Maps /> */}
       
      </main>

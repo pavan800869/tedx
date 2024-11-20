@@ -23,7 +23,7 @@ const TeamCards = () => {
                 The TEDxAnuragU Team
 
                 </h1>
-                <p className="text-white text-xl mb-12 text-center">
+                <p className="text-neutral-500 text-xl mb-12 text-center">
                     Stay tuned for speaker announcements
                 </p>
 
@@ -47,7 +47,7 @@ const TeamCards = () => {
                             <h2 className="text-pink-500 text-xl font-bold mt-4 text-center">
                                 {speaker.name}
                             </h2>
-                            <p className="text-white text-center mt-2 max-w-xs">
+                            <p className="text-neutral-500 text-center mt-2 max-w-xs">
                                 {speaker.title}
                             </p>
                         </div>

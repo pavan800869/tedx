@@ -13,7 +13,7 @@ function NavBar() {
   const navLinks = [
     { label: 'Home', href: '/' },
     { label: 'Events', href: '#events' },
-    { label: 'About', href: '#about' },
+    { label: 'About', href: '/aboutus' },
     { label: 'Speakers', href: '/speakers' },
     { label: 'Partners', href: '#partners' },
     { label: 'Contact', href: '#contact' },

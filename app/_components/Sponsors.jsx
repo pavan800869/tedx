@@ -3,7 +3,7 @@ import React from 'react';
 
 function Sponsors() {
   return (
-    <div className="bg-[#010100] text-center py-8">
+    <div id='partners' className="bg-[#010100] text-center py-8">
       {/* Heading */}
       <div>
         <p className="text-transparent bg-clip-text font-bold text-3xl sm:text-4xl bg-gradient-to-t from-[#fa3f7b] to-[#f10f48]">

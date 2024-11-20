@@ -22,7 +22,7 @@ const DummyContent = ({ source }) => {
   return (
     <div
       key={"dummy-content"}
-      className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4"
+      className="bg-black p-8 md:p-14 rounded-3xl mb-4"
     >
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}> {/* 16:9 Aspect Ratio */}
         <iframe
@@ -69,23 +69,23 @@ const data = [
 
   },
   {
-    category: " Sekhar Kammula ",
-    title: "Empathy – Highest Form of Knowledge |",
+    category: "Nag Ashwin",
+    title: "Dopamine and The Future of Cinema",
     src: "/tedx/speakers/2.webp",
     content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
 
   },
   {
-    category: " Sekhar Kammula ",
-    title: "Empathy – Highest Form of Knowledge |",
+    category: "Gauranga Darshan Das",
+    title: "From Entangle to Untangle",
     src: "/tedx/speakers/3.webp",
     content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
 
   },
 
   {
-    category: " Sekhar Kammula ",
-    title: "Empathy – Highest Form of Knowledge |",
+    category: "Pullela Gopichand ",
+    title: "Sports for Physical Literacy",
     src: "/tedx/speakers/4.webp",
     content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
 
