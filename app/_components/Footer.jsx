@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer id='contact' className="w-full h-fit bg-red-800 text-white py-8 ">
+        <footer id='contact' className="w-full h-fit bg-red-600 text-white py-8 ">
             <div className="max-w-7xl mx-auto px-12">
                 <div className="flex flex-col md:flex-row justify-between  gap-6">
                     {/* Left section with logo and text */}
@@ -50,7 +50,7 @@ const Footer = () => {
                     {/* Right section with button and social media */}
                     <div className="flex flex-col items-start gap-6 my-auto">
                         {/* Event Photos Button */}
-                        <a href="https://www.instagram.com/tedxanuragu/" target='_blank'><button className="font-bold border-2 px-8 md:px-12 py-2 border-red-500 text-white hover:bg-red-500 hover:text-white rounded-full transition-colors">
+                        <a href="https://www.instagram.com/tedxanuragu/" target='_blank'><button className="font-bold border-2 px-8 md:px-12 py-2 border-black text-black hover:bg-red-500 hover:text-black transition-colors">
                             Event Photos
                         </button>
                         </a>

@@ -75,7 +75,7 @@ const TEDxStatsPage = () => {
                             suffix={stat.suffix}
                             isVisible={isInView}
                         />
-                        <div className="text-lg text-white mt-2">
+                        <div className="text-lg lg:text-4xl text-white mt-2">
                             {stat.label}
                         </div>
                     </motion.div>

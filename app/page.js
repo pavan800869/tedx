@@ -34,7 +34,7 @@ export default function Home() {
       
     
     
-    <main className="bg-black relative h-[200vh]">
+    <div className="bg-black relative h-[200vh]">
       
       <BlurFade delay={0.4}>
         <HeroSection />
@@ -43,13 +43,15 @@ export default function Home() {
       <Sponsors />
       <TEDxStatsPage />
       <TalksSection />
-      <EventRegistration />
+      {/* <EventRegistration /> */}
       
       <Query />
+      <Footer />
       
       {/* <Maps /> */}
+
       
-     </main>
+     </div>
     
   );
 }
