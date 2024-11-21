@@ -3,15 +3,15 @@ import React from 'react';
 const TeamCards = () => {
   const speakers = [
     {
-      name: "Tara Singh Thakur",
-      title: "Organizer",
-      image: "/tedx/taraSir.jpeg"
-    },
-    {
       name: "Anurag Palla",
-      title: "Co-organizer",
+      title: "Organizer",
       image: "/tedx/anuragSir.jpeg"
-    },
+  },
+  {
+      name: "Tara Singh Thakur",
+      title: "Co-organizer",
+      image: "/tedx/taraSir.jpeg"
+  },
 
 
   ];
