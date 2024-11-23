@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const TeamCards = () => {
   const speakers = [
@@ -6,76 +6,99 @@ const TeamCards = () => {
       name: "Anurag Palla",
       title: "Organizer",
       image: "/tedx/anuragSir.jpeg",
-      profileUrl: "https://www.ted.com/profiles/15544804/about"
+      profileUrl: "https://www.ted.com/profiles/15544804/about",
     },
     {
       name: "Tara Singh Thakur",
       title: "Co-organizer",
       image: "/tedx/taraSir.jpeg",
-      profileUrl: "https://www.ted.com/profiles/18764268/about"
-    }
+      profileUrl: "https://www.ted.com/profiles/18764268/about",
+    },
   ];
 
   return (
-    <div className="bg-black min-h-screen px-16 mt-14 mb-8">
-      <div className='text-neutral-500 text-center mb-14'>
-        <h1 className='text-4xl font-extrabold p-8'><span className='text-red-600'>TED</span> is a nonprofit organization devoted to ideas worth spreading</h1>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 text-start text-2xl mt-12'>
-          <div>
-            <h1 className='font-extrabold text-2xl'>About <span className='text-red-600 text-4xl'>TED</span></h1>
-            <p>Technology, Entertainment and Design, the set of global conferences have been going with the spirit of ideas worth spreading since1984. TED isa global community, welcoming people from every discipline and culture who seek a deeper understanding of the world. TED believes passionately in the power of ideas to change attitudes, lives and, ultimately, the world. TED is owned by a nonprofit, nonpartisan foundation. The agenda is to make great ideas accessible and spark conversation.</p>
-          </div>
-          <div>
-            <h1 className='font-extrabold text-2xl'>About <span className='text-red-600 text-4xl'>TEDx</span></h1>
-            <p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people to get her to share a TED-like experience. Ata TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.(Subject to certain rules and regulations.)</p>
-          </div>
+    <div className="bg-black text-neutral-300 px-6 lg:px-16 pb-16 lg:mt-12">
+      {/* Header Section */}
+      <div className="text-center mb-16">
+        <h1 className="text-4xl lg:text-5xl font-extrabold mb-6 leading-tight">
+          <span className="text-red-600">TED</span> is a nonprofit organization
+          devoted to ideas worth spreading
+        </h1>
+        <p className="text-lg text-neutral-400 max-w-3xl mx-auto">
+          Discover inspiring ideas, connect with passionate speakers, and join
+          the global movement for innovation and creativity.
+        </p>
+      </div>
+
+      {/* About TED and TEDx */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
+        <div className="bg-neutral-900 p-8 rounded-lg shadow-lg">
+          <h2 className="text-2xl lg:text-3xl font-extrabold mb-4">
+            About <span className="text-red-600">TED</span>
+          </h2>
+          <p className="text-neutral-400 leading-relaxed">
+            Technology, Entertainment, and Design have driven global
+            conferences with the spirit of ideas worth spreading since 1984.
+            TED welcomes people from every discipline and culture, passionately
+            believing in the power of ideas to change attitudes, lives, and
+            ultimately the world.
+          </p>
+        </div>
+        <div className="bg-neutral-900 p-8 rounded-lg shadow-lg">
+          <h2 className="text-2xl lg:text-3xl font-extrabold mb-4">
+            About <span className="text-red-600">TEDx</span>
+          </h2>
+          <p className="text-neutral-400 leading-relaxed">
+            TEDx is a program of self-organized events bringing people together
+            to share TED-like experiences. Local events branded as TEDx spark
+            deep discussions and connections, guided by TED’s overarching
+            principles.
+          </p>
         </div>
       </div>
-      <div className="max-w-6xl mx-auto mt-20">
-        <h1 className="font-bold text-center text-6xl text-red-600">
+
+      {/* Team Section */}
+      <div className="text-center mb-12">
+        <h1 className="text-5xl font-bold text-red-600 mb-4">
           The #AnythingIsPossible Team
         </h1>
-        <p className="text-neutral-500 text-xl text-center p-8">
-          Stay tuned for speaker announcements
+        <p className="text-neutral-400 text-lg">
+          Meet the passionate individuals who make it all happen.
         </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-8">
-          {speakers.map((speaker, index) => (
-            <a 
-              key={index} 
-              href={speaker.profileUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center py-8 group cursor-pointer transition-transform duration-300 hover:-translate-y-2"
-            >
-              <div className="relative">
-                <div className="relative w-36 h-36 rounded-full overflow-hidden bg-gradient-to-t from-[#fa3f3f] to-[#f72121] p-[4px] transition-transform duration-300 group-hover:scale-105">
-                  <div className="w-full h-full rounded-full overflow-hidden bg-white">
-                    <img
-                      src={speaker.image}
-                      alt={speaker.name}
-                      className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
-                    />
-                    <div className="absolute inset-0 bg-red-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-full"></div>
-                  </div>
-                </div>
-                {/* Profile link indicator */}
-                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-red-600 text-white text-xs py-1 px-3 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap">
-                  View Profile
-                </div>
-              </div>
-              <h2 className="text-pink-500 text-xl font-bold mt-4 text-center group-hover:text-red-500 transition-colors duration-300">
-                {speaker.name}
-              </h2>
-              <p className="text-neutral-500 text-center mt-2 max-w-xs">
-                {speaker.title}
-              </p>
-            </a>
-          ))}
-        </div>
       </div>
-      <div className='flex items-center justify-center'>
-        <button className="font-bold border-2 px-12 py-2 border-white bg-white text-black rounded-full hover:bg-black hover:text-white transition-colors duration-300">
+
+      {/* Speaker Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        {speakers.map((speaker, index) => (
+          <a
+            key={index}
+            href={speaker.profileUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center text-center group transition-transform duration-300 hover:-translate-y-2"
+          >
+            <div className="relative w-36 h-36 lg:w-44 lg:h-44 rounded-full overflow-hidden bg-gradient-to-t from-red-500 to-red-700 p-[4px] group-hover:scale-105 transition-transform duration-300">
+              <img
+                src={speaker.image}
+                alt={speaker.name}
+                className="w-full h-full object-cover rounded-full grayscale group-hover:grayscale-0 transition-all duration-300"
+              />
+              <div className="absolute inset-0 bg-red-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-full"></div>
+            </div>
+            <h2 className="text-xl lg:text-2xl font-bold mt-6 text-neutral-100 group-hover:text-red-500 transition-colors duration-300">
+              {speaker.name}
+            </h2>
+            <p className="text-neutral-400 mt-2">{speaker.title}</p>
+            <div className="mt-4 bg-red-600 text-white text-sm py-2 px-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              View Profile
+            </div>
+          </a>
+        ))}
+      </div>
+
+      {/* Footer Call-to-Action */}
+      <div className="flex justify-center mt-16">
+        <button className="font-bold text-lg px-12 py-3 border-2 border-red-600 text-black-600  hover:bg-red-600 hover:text-white transition-colors duration-300">
           Keep in touch
         </button>
       </div>

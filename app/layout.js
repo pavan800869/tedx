@@ -17,7 +17,8 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "TedX AnuragU",
-  description: "TEDxAnuragU is a platform for ideas worth spreading. It is a local, self-organized event that brings people together to share a TED-like experience.",
+  description:
+    "TEDxAnuragU is a platform for ideas worth spreading. It is a local, self-organized event that brings people together to share a TED-like experience.",
 };
 
 export default function RootLayout({ children }) {
@@ -26,9 +27,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
       >
-        <BlurFade delay={0.2}>
-                <NavBar />
-            </BlurFade>
+        <NavBar />
+
         {children}
         <Footer />
       </body>
