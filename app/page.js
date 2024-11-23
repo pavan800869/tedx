@@ -32,13 +32,11 @@ export default function Home() {
     return () => cancelAnimationFrame(rafId);
   }, []);
 
-  const handleSplashEnd = () => {
-    setShowSplash(false); // Hide splash screen when animation ends
-  };
+ 
 
   return (
     <div className="bg-black relative h-[200vh]">
-      {showSplash && <SplashScreen onAnimationEnd={handleSplashEnd} />}
+      
       <BlurFade delay={0.4}>
         <HeroSection />
       </BlurFade>

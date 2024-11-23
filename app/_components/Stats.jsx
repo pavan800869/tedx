@@ -58,7 +58,7 @@ const TEDxStatsPage = () => {
             
             <div 
                 ref={ref}
-                className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-3xl"
+                className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-xl lg:max-w-3xl"
             >
                 {stats.map((stat, index) => (
                     <motion.div
