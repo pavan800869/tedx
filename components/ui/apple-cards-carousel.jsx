@@ -106,7 +106,7 @@ export const Carousel = ({
                   },
                 }}
                 key={"card" + index}
-                className="last:pr-[5%] md:last:pr-[33%]  rounded-3xl">
+                className="last:pr-[5%] md:last:pr-[33%]  rounded-3xl cursor-pointer">
                 {item}
               </motion.div>
             ))}
@@ -207,18 +207,20 @@ export const Card = ({
     <motion.button
       layoutId={layout ? `card-${card.title}` : undefined}
       onClick={handleOpen}
-      className="rounded-3xl bg-black h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10">
-      <div
-        className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30 pointer-events-none" />
+      className="rounded-3xl bg-black h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10 transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-2"
+    >
+      <div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30 pointer-events-none" />
       <div className="relative z-40 p-8">
         <motion.p
           layoutId={layout ? `category-${card.category}` : undefined}
-          className="text-white text-sm md:text-base font-medium font-sans text-left">
+          className="text-white text-sm md:text-base font-medium font-sans text-left"
+        >
           {card.category}
         </motion.p>
         <motion.p
           layoutId={layout ? `title-${card.title}` : undefined}
-          className="text-white text-xl md:text-3xl font-semibold max-w-xs text-left [text-wrap:balance] font-sans mt-2">
+          className="text-white text-xl md:text-3xl font-semibold max-w-xs text-left [text-wrap:balance] font-sans mt-2"
+        >
           {card.title}
         </motion.p>
       </div>
@@ -226,10 +228,9 @@ export const Card = ({
         src={card.src}
         alt={card.title}
         width={500}
-        height={
-          500
-        }
-        className="object-cover absolute z-10 inset-0" />
+        height={500}
+        className="object-cover absolute z-10 inset-0"
+      />
     </motion.button>
   </>);
 };

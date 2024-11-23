@@ -1,7 +1,6 @@
 'use client'
 import NavBar from "./_components/NavBar";
 import HeroSection from "./_components/HeroSection";
-
 import Sponsors from "./_components/Sponsors";
 import EventRegistration from "./_components/EventRegistration";
 import SpeakerCards from "./_components/Speakers";
@@ -15,6 +14,7 @@ import Maps from "./_components/Maps";
 import TalksSection from "./_components/Talks";
 import LandingPage from "./_components/LandingPage";
 import TEDxStatsPage from "./_components/Stats";
+import ScrollToTop from "./_components/TopButton";
 
 
 export default function Home() {
@@ -29,30 +29,18 @@ export default function Home() {
   
     return () => cancelAnimationFrame(rafId)
   }, [])
+
   return (
-    
-      
-    
-    
     <div className="bg-black relative h-[200vh]">
-      
       <BlurFade delay={0.4}>
         <HeroSection />
       </BlurFade>
-      {/* <LandingPage /> */}
-      
       <TEDxStatsPage />
       <TalksSection />
-      {/* <EventRegistration /> */}
-      
       <Query />
       <Sponsors />
       <Footer />
-      
-      {/* <Maps /> */}
-
-      
-     </div>
-    
+      <ScrollToTop />
+    </div>
   );
 }

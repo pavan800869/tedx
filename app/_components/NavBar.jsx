@@ -12,7 +12,7 @@ function classNames(...classes) {
 function NavBar() {
   const navLinks = [
     { label: 'Home', href: '/' },
-    { label: 'Events', href: '#events' },
+    { label: 'Gallery', href: '/#' },
     { label: 'About', href: '/aboutus' },
     { label: 'Speakers', href: '/speakers' },
     { label: 'Partners', href: '#partners' },

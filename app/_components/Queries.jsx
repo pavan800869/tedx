@@ -5,7 +5,7 @@ export function Query() {
     return (
         <div className="flex flex-col text-white items-center px-8 ">
             <div>
-                <h1 className=" mt-16 font-bold md:text-6xl sm:text-4xl text-red-600">FAQs</h1>
+                <h1 className=" mt-8 font-bold text-3xl sm:text-4xl text-red-600">FAQs</h1>
             </div>
             <Accordion type="single" collapsible className="w-full   py-8 px-4 lg:px-40">
                 <AccordionItem value="item-1" className={"py-4"}>

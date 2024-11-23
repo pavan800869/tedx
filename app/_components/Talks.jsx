@@ -9,7 +9,7 @@ function TalkSection() {
   ));
 
   return (
-    (<div className="w-full h-fit py-20 bg-black">
+    (<div className="w-full h-fit mb-20 bg-black">
       <h2
         className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-200 font-sans">
         Featured Talks at <span className="text-red-500">TedxAnuragU</span>

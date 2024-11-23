@@ -6,7 +6,7 @@ function Sponsors() {
     <div id='partners' className="bg-[#010100] text-center py-8">
       {/* Heading */}
       <div>
-        <p className="text-transparent bg-clip-text font-bold text-3xl sm:text-4xl bg-gradient-to-t from-[#fa3f7b] to-[#f10f48]">
+        <p className="bg-clip-text font-bold text-3xl sm:text-4xl bg-gradient-to-t text-red-600">
           Thank you to our Sponsors
         </p>
       </div>
