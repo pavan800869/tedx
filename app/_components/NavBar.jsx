@@ -15,8 +15,8 @@ function NavBar() {
     { label: 'Gallery', href: '/gallery' },
     { label: 'About', href: '/aboutus' },
     { label: 'Speakers', href: '/speakers' },
-    { label: 'Partners', href: '#partners' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Partners', href: '/' },
+    { label: 'Contact', href: '/' },
   ];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
