@@ -11,15 +11,9 @@ export default function Gallery() {
         '/tedx/events/performance.jpg',
         '/tedx/events/performance1.jpg',
         '/tedx/events/performance2.jpg',
+        '/tedx/events/team.jpg',
         '/tedx/events/indoor.jpg',
-        '/tedx/events/speaker1.jpg',
-        '/tedx/events/speaker2.png',
-        '/tedx/events/speaker3.jpg',
-        '/tedx/events/speaker4.png',
-        '/tedx/events/speaker5.jpg',
-        '/tedx/events/speaker6.jpg',
-        '/tedx/events/speaker6.png',
-        '/tedx/events/speaker8.png',
+        
         '/tedx/events/outdoor.png',
 
     ]
