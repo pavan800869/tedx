@@ -7,10 +7,20 @@ import Image from 'next/image'
 export default function Gallery() {
   const images = [
     '/tedx/ishmeet.jpg',
-    '/tedx/ishmeet.jpg',
-    '/tedx/ishmeet.jpg',
-    '/tedx/ishmeet.jpg',
-    '/tedx/ishmeet.jpg',
+    '/tedx/events/stage.jpg',
+    '/tedx/events/performance.jpg',
+    '/tedx/events/performance1.jpg',
+    '/tedx/events/performance2.jpg',
+    '/tedx/events/indoor.jpg',
+    '/tedx/events/speaker1.jpg',
+    '/tedx/events/speaker2.png',
+    '/tedx/events/speaker3.jpg',
+    '/tedx/events/speaker4.png',
+    '/tedx/events/speaker5.jpg',
+    '/tedx/events/speaker6.jpg',
+    '/tedx/events/speaker6.png',
+    '/tedx/events/speaker8.png',
+    '/tedx/events/outdoor.png',
     
   ]
 
@@ -18,8 +28,8 @@ export default function Gallery() {
 
   return (
     <section className="py-20 px-5">
-      <h2 className="text-4xl font-bold mb-10 text-center">Get Ready to Save Big!</h2>
-      <h3 className="text-3xl font-bold mb-10 text-center text-green-500">Fall Sale 50% OFF</h3>
+      <h2 className="text-4xl font-bold mb-10 text-center text-red-600">Get Ready for something Big!</h2>
+      
       <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
         {images.map((src, index) => (
           <motion.div
@@ -33,8 +43,8 @@ export default function Gallery() {
             <Image
               src={src}
               alt={`Gallery image ${index + 1}`}
-              width={300}
-              height={300}
+              width={400}
+              height={400}
               className="rounded-xl"
             />
           </motion.div>
