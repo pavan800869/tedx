@@ -46,13 +46,14 @@ const TEDxStatsPage = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-black flex flex-col lg:flex-row justify-center items-center p-6">
+        <div className="min-h-screen bg-black flex flex-col lg:flex-row justify-center items-center px-6">
             <div className='flex flex-col'>
-                <Image src={"/tedx/logo.svg"} height={500} width={500} alt='Logo' />
-                <div className="text-center mb-12">
-                    <h1 className="text-6xl font-extrabold text-white mb-4">Years of Impact</h1>
-                    <p className="text-xl text-gray-600">Our Journey in Numbers</p>
+            <div className="text-center mb-12">
+                    <h1 className="text-6xl font-extrabold text-white mb-4">Years of <span className=" text-red-500">Impact</span></h1>
+                    
                 </div>
+                <Image src={"/tedx/logo.svg"} height={400} width={400} alt='Logo' />
+                
             </div>
             
             <div 
