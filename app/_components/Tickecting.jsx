@@ -33,12 +33,12 @@ const tickets = [
 
 const TicketPricing = () => {
     return (
-        <div className='mt-8 mb-8 px-12'>
+        <div className='mt-8 mb-8 '>
             <h2
         className="max-w-7xl mx-auto text-4xl md:text-7xl font-bold text-neutral-200 font-sans">
        Get Your Ticket to the <br /> <span className="text-3xl text-red-500">TEDx Magic</span>
       </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4  ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 px-12 ">
 
                 {tickets.map((ticket) => (
                     <TicketCard key={ticket.type} {...ticket} />
