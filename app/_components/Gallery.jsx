@@ -21,7 +21,7 @@ export default function Gallery() {
     return (
         <section className="bg-black mb-12 px-12 ">
             {/* Hero Section */}
-            <div className="max-w-6xl mb-12">
+            <div className="max-w-6xl mb-12">   
                 <h2 className="text-4xl md:text-7xl font-bold text-neutral-100">
                     Captured Moments at
                     <br />

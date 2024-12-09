@@ -9,10 +9,10 @@ function TalkSection() {
   ));
 
   return (
-    (<div className="w-full h-fit mb-20 bg-black">
+    (<div className="w-full h-fit mb-20  bg-black">
       <h2
-        className="max-w-7xl mx-auto text-xl md:text-7xl font-bold text-neutral-200 font-sans">
-        Featured Talks at <br /> <span className="text-3xl text-red-500">TedxAnuragU</span>
+        className="max-w-7xl mx-auto text-4xl md:text-7xl font-bold text-neutral-200 font-sans px-12">
+        Featured Talks at <br /> <span className="text-3xl text-red-500"> TedxAnuragU</span>
       </h2>
       <Carousel items={cards} />
     </div>)
