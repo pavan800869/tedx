@@ -17,6 +17,7 @@ import TEDxStatsPage from "./_components/Stats";
 import ScrollToTop from "./_components/TopButton";
 import Gallery from "./_components/Gallery";
 import SplashScreen from './_components/SplashScreen'; // Import the SplashScreen component
+import TicketPricing from "./_components/Tickecting";
 
 export default function Home() {
   const lenisRef = useRef();
@@ -35,17 +36,17 @@ export default function Home() {
  
 
   return (
-    <div className="bg-black relative h-[200vh]">
+    <div className="bg-black">
       
-      <BlurFade delay={0.4}>
+      <BlurFade delay={0.2}>
         <HeroSection />
       </BlurFade>
-      <TEDxStatsPage />
+      {/* <TEDxStatsPage /> */}
       <TalksSection />
+      <TicketPricing />
       <Gallery />
       <Query />
-      <Sponsors />
-      <Footer />
+      
       <ScrollToTop />
     </div>
   );

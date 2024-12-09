@@ -11,7 +11,7 @@ function TalkSection() {
   return (
     (<div className="w-full h-fit mb-20 bg-black">
       <h2
-        className="max-w-7xl pl-4 mx-auto text-xl md:text-7xl font-bold text-neutral-200 font-sans">
+        className="max-w-7xl mx-auto text-xl md:text-7xl font-bold text-neutral-200 font-sans">
         Featured Talks at <br /> <span className="text-3xl text-red-500">TedxAnuragU</span>
       </h2>
       <Carousel items={cards} />

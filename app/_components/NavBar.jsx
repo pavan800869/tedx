@@ -12,11 +12,11 @@ function classNames(...classes) {
 function NavBar() {
   const navLinks = [
     { label: 'Home', href: '/' },
-    { label: 'Gallery', href: '/gallery' },
     { label: 'About', href: '/aboutus' },
     { label: 'Speakers', href: '/speakers' },
-    { label: 'Partners', href: '/' },
-    { label: 'Contact', href: '/' },
+    // { label: 'Gallery', href: '/gallery' },
+    { label: 'Connect with us', href: '/connect-with-us' },
+    
   ];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -37,7 +37,7 @@ function NavBar() {
   }, [isMenuOpen]);
 
   return (
-    <Disclosure as="nav" className="bg-black w-full z-50 lg:sticky top-0 shadow-md pt-4">
+    <Disclosure as="nav" className="bg-neutral-950 w-full z-50 lg:sticky top-0 shadow-md pt-4 border-b-2 border-neutral-900">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}

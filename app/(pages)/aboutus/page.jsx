@@ -11,7 +11,7 @@ const TeamCards = () => {
     {
       name: "Tara Singh Thakur",
       title: "Co-organizer",
-      image: "/tedx/taraSir.jpeg",
+      image: "/tedx/speakers/Tara-sir.jpg",
       profileUrl: "https://www.ted.com/profiles/18764268/about",
     },
   ];
@@ -59,7 +59,7 @@ const TeamCards = () => {
 
       {/* Team Section */}
       <div className="text-center mb-12">
-        <h1 className="text-5xl font-bold text-red-600 mb-4">
+        <h1 className="text-3xl lg:text-5xl font-bold text-red-600 mb-4">
           The #AnythingIsPossible Team
         </h1>
         <p className="text-neutral-400 text-lg">

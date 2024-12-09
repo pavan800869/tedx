@@ -1,6 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
-
 export function Query() {
     return (
         <div className="flex flex-col text-white items-center px-8 ">
@@ -9,27 +8,37 @@ export function Query() {
             </div>
             <Accordion type="single" collapsible className="w-full   py-8 px-4 lg:px-40">
                 <AccordionItem value="item-1" className={"py-4"}>
-                    <AccordionTrigger className={"text-2xl font-bold"}>When do tickets go on sale?</AccordionTrigger>
+                    <AccordionTrigger className={"text-2xl font-bold"}>
+                        <a href="/speakers" className="text-white">Who are the Speakers?</a>
+                    </AccordionTrigger>
                     <AccordionContent>
-                        Tickets can be purchased starting January 12.
+                        Tickets can be purchased starting January 12. For more information about the speakers, visit our <a href="/speakers" className="text-blue-400">Speakers Page</a>.
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2" className={"py-4"}>
-                    <AccordionTrigger className={"text-2xl font-bold"}>What can I expect?</AccordionTrigger>
+                    <AccordionTrigger className={"text-2xl font-bold"}>
+                        Where is the Event Happening?
+                    </AccordionTrigger>
                     <AccordionContent>
-                        Prepare to be challenged and inspired as the world’s largest platform for ideas returns to Hyderabad City for an evening of TED Talks, performances, and experiences.  the lineup includes an award-winning filmmaker, a neuroscientist and NOVA series host, a journalist and podcaster, an author, philosopher, and suicide preventer, an artist with a Guggenheim Fellowship, and much more.
-
-                        Don't miss the opportunity to extend your experience beyond the event. Join us for a post-event celebration filled with more experiences, music, and refreshments (weather permitting).
+                        The event will take place at Anurag University, APJ Abdul Kalam Hall. For directions and more details, visit the <a href="/footer" className="text-blue-400">Event Location Page</a>.
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3" className={"py-4"}>
-                    <AccordionTrigger className={"text-2xl font-bold"}>How much do tickets cost?</AccordionTrigger>
+                    <AccordionTrigger className={"text-2xl font-bold"}>
+                        <a href="/ticket-prices" className="text-white">What is the Ticket Price?</a>
+                    </AccordionTrigger>
                     <AccordionContent>
-                        TEDxAnuragU (Anurag University APJ Abdul Kalam Hall): $52 to $95 + $8 facility fee (tickets)
+                        TEDxAnuragU (Anurag University APJ Abdul Kalam Hall): $52 to $95 + $8 facility fee. For more ticketing information, visit our <a href="#tickets" className="text-blue-400">Ticket Prices Page</a>.
                     </AccordionContent>
                 </AccordionItem>
-                
-                
+                <AccordionItem value="item-4" className={"py-4"}>
+                    <AccordionTrigger className={"text-2xl font-bold"}>
+                        <a href="/event-timings" className="text-white">What are the Event Timings?</a>
+                    </AccordionTrigger>
+                    <AccordionContent>
+                        The event is at Anurag University from 9 AM to 6 PM.
+                    </AccordionContent>
+                </AccordionItem>
             </Accordion>
         </div>
     )
