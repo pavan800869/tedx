@@ -11,7 +11,7 @@ const TeamCards = () => {
     {
       name: "Tara Singh Thakur",
       title: "Co-organizer",
-      image: "/tedx/speakers/Tara-sir.jpg",
+      image: "/tedx/taraSir.jpg",
       profileUrl: "https://www.ted.com/profiles/18764268/about",
     },
   ];
