@@ -15,7 +15,12 @@ function ConnectWithUs() {
 
           <p className="text-white mb-4 mt-4">Know someone who belongs on our stage ?</p>
           <div className='flex gap-2'>
+          <Link
+              href="/nominate-speaker"
+              className=" text-white  transition duration-200"
+            >
             <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4">Nominate Speaker</h2>
+            </Link>
             <Link
               href="/nominate-speaker"
               className=" text-white"
@@ -31,7 +36,12 @@ function ConnectWithUs() {
 
           <p className="text-white mb-4">Want to support TEDx Hyderabad as a sponsor ?</p>
           <div className='flex gap-2'>
+          <Link
+              href="/nominate-speaker"
+              className=" text-white  transition duration-200"
+            >
             <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4">Partner With us</h2>
+            </Link>
             <Link
               href="/nominate-speaker"
               className=" text-white  transition duration-200"

@@ -39,7 +39,7 @@ export default function Gallery() {
                         key={index}
                         layoutId={`image-${index}`}
                         onClick={() => setSelectedId(index)}
-                        className="cursor-pointer group relative"
+                        className={`cursor-pointer group relative `}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >

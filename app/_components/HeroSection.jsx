@@ -92,15 +92,22 @@ export default function HomeSection() {
 
           {/* Register Button */}
           <div className="text-right">
-            <button
+            <a
+              href="https://tally.so/r/3N46PQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsMenuOpen(false)}
+              className="block"
+            ><button
               className="bg-red-600 hover:bg-red-700 text-white font-bold 
                        py-3 px-6 lg:py-4 lg:px-8 
                        text-sm sm:text-base lg:text-lg
                        transition duration-300 ease-in-out transform hover:scale-105 
                        tracking-wider uppercase"
             >
-              Register Now
-            </button>
+                Register Now
+              </button>
+            </a>
           </div>
         </div>
       </div>
