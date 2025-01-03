@@ -17,7 +17,7 @@ const TeamCards = () => {
   ];
 
   return (
-    <div className="bg-black text-neutral-300 px-6 lg:px-16 pb-16 lg:mt-12">
+    <div className="bg-black text-neutral-300 px-6 lg:px-16 pb-16 mt-10 lg:mt-12">
       {/* Header Section */}
       <div className="text-center mb-16">
         <h1 className="text-4xl lg:text-5xl font-extrabold mb-6 leading-tight">

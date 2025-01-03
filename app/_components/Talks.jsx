@@ -72,14 +72,14 @@ const data = [
     category: "Nag Ashwin",
     title: "Dopamine and The Future of Cinema",
     src: "/tedx/speakers/2.webp",
-    content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
+    content: <DummyContent source={"https://youtu.be/NRc7tVYy7CM?si=V1Bqa0LxTvTHAhff"} />,
 
   },
   {
     category: "Gauranga Darshan Das",
     title: "From Entangle to Untangle",
     src: "/tedx/speakers/3.webp",
-    content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
+    content: <DummyContent source={"https://youtu.be/6riMZFHJcmQ?si=TxIqLR5RZuIfDbtG"} />,
 
   },
 
@@ -87,21 +87,21 @@ const data = [
     category: "Pullela Gopichand ",
     title: "Sports for Physical Literacy",
     src: "/tedx/speakers/4.webp",
-    content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
+    content: <DummyContent source={"https://youtu.be/ob-1JSRdVzo?si=P_PppSIcNjqMAPMW"} />,
 
   },
   {
     category: "Nagarjuna Muppala ",
     title: "Autonomy, Reclaiming Autonomy",
     src: "/tedx/speakers/5.webp",
-    content: <DummyContent source={"https://youtu.be/_0zwG2fwLOU"} />,
+    content: <DummyContent source={"https://youtu.be/_0zwG2fwLOU?si=G8V57yIJmY7NBIMY"} />,
 
   },
-  {
-    category: " Sekhar Kammula ",
-    title: "Empathy – Highest Form of Knowledge |",
-    src: "/tedx/speakers/1.webp",
-    content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
+  // {
+  //   category: " Sekhar Kammula ",
+  //   title: "Empathy – Highest Form of Knowledge |",
+  //   src: "/tedx/speakers/1.webp",
+  //   content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
 
-  },
+  // },
 ];
