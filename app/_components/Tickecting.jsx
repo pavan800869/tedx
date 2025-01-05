@@ -33,7 +33,7 @@ const tickets = [
 
 const TicketPricing = () => {
     return (
-        <div className='mt-8 mb-8 '>
+        <div className='mt-8 mb-8 ' id='ticketing'>
             <h2
         className="text-4xl md:text-7xl font-bold text-neutral-200 font-sans px-12">
        Get Your Ticket to the <br /> <span className="text-3xl text-red-500">TEDx Magic</span>
