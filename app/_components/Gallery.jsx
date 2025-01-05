@@ -19,7 +19,7 @@ export default function Gallery() {
     const [selectedId, setSelectedId] = useState(null)
 
     return (
-        <section className="bg-black mb-12  ">
+        <section className="bg-black mb-12 mt-20  ">
             {/* Hero Section */}
             <div className="max-w-6xl mb-12 px-12">   
                 <h2 className="text-4xl md:text-7xl font-bold text-neutral-100">
@@ -33,7 +33,7 @@ export default function Gallery() {
             </div>
 
             {/* Gallery Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 max-w-7xl mx-auto ">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 max-w-7xl mx-auto px-8 ">
                 {images.map((src, index) => (
                     <motion.div
                         key={index}
