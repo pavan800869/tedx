@@ -9,9 +9,9 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-12">
                 <div className="flex flex-col md:flex-row justify-between gap-6">
                     {/* Left section with logo and text */}
-                    <div className="flex flex-col justify-start my-auto ">
-                        {/* TEDxKC Logo */}
-                        <h1 className='text-5xl font-bold mb-2'>TedX <span className='font-extralight'>AnuragU</span> </h1>
+                    <div className="flex flex-col justify-start">
+                        {/* TEDxAnuragU Logo */}
+                        <h1 className='text-5xl font-bold mb-2 mt-0'>TedX <span className='font-extralight'>AnuragU</span> </h1>
 
                         {/* License Text */}
                         <p className="text-sm text-gray-300 mb-2">
