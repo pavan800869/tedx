@@ -1,6 +1,7 @@
 import React from 'react';
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -43,9 +44,11 @@ const Footer = () => {
 
                     {/* Middle section with links */}
                     <div className='flex flex-col gap-5 text-lg'>
-                        <a href="">Events</a>
-                        <a href="">About</a>
-                        <a href="">Contact Us</a>
+                        <Link href="#ticketing">
+                        Events
+                        </Link>
+                        <a href="/aboutus">About</a>
+                        <a href="/connect-with-us">Contact Us</a>
                         
                     </div>
                     <div className='flex flex-col gap-5 text-lg '>
