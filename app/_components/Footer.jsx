@@ -44,9 +44,7 @@ const Footer = () => {
 
                     {/* Middle section with links */}
                     <div className='flex flex-col gap-5 text-lg'>
-                        <Link href="#ticketing">
-                        Events
-                        </Link>
+                        <a href="/speakers">Speakers</a>
                         <a href="/aboutus">About</a>
                         <a href="/connect-with-us">Contact Us</a>
                         
