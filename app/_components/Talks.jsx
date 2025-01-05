@@ -26,7 +26,7 @@ const DummyContent = ({ source }) => {
     >
       <div className="relative w-full" style={{ paddingTop: '56.25%' }}> {/* 16:9 Aspect Ratio */}
         <iframe
-        
+
           src={`https://www.youtube-nocookie.com/embed/${getYouTubeVideoId(source)}?autoplay=1`} // Use the function to extract video ID
           title="YouTube Video Player"
           frameBorder="0"
@@ -63,9 +63,16 @@ export default TalkSection;
 const data = [
   {
     category: " Sekhar Kammula ",
-    title: "Empathy – Highest Form of Knowledge |",
+    title: "Empathy – Highest Form of Knowledge",
     src: "/tedx/speakers/1.webp",
     content: <DummyContent source={"https://youtu.be/dhsiWSpEBBc?si=AbDP0zM-XhvurH5o"} />,
+
+  },
+  {
+    category: "Tanya Mittal",
+    title: "How To Start a Startup",
+    src: "/tedx/speakers/5.webp",
+    content: <DummyContent source={"https://youtu.be/NRc7tVYy7CM?si=V1Bqa0LxTvTHAhff"} />,
 
   },
   {
@@ -76,14 +83,6 @@ const data = [
 
   },
   {
-    category: "Olly Esse",
-    title: "Never Fear The Change",
-    src: "/tedx/speakers/3.webp",
-    content: <DummyContent source={"https://youtu.be/Ol544Hu3jSQ?si=clLBpDshOv0W5CNI"} />,
-
-  },
-
-  {
     category: "Pullela Gopichand ",
     title: "Sports for Physical Literacy",
     src: "/tedx/speakers/4.webp",
@@ -91,9 +90,18 @@ const data = [
 
   },
   {
-    category: "Nagarjuna Muppala ",
-    title: "Autonomy, Reclaiming Autonomy",
-    src: "/tedx/speakers/5.webp",
+    category: "Olly Esse",
+    title: "Never Fear The Change",
+    src: "/tedx/speakers/3.webp",
+    content: <DummyContent source={"https://youtu.be/Ol544Hu3jSQ?si=clLBpDshOv0W5CNI"} />,
+
+  },
+
+
+  {
+    category: "R. S. Praveen Kumar ",
+    title: "The Power of Vulnerability ",
+    src: "/tedx/speakers/6.webp",
     content: <DummyContent source={"https://youtu.be/_0zwG2fwLOU?si=G8V57yIJmY7NBIMY"} />,
 
   },
