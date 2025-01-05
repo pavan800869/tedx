@@ -6,16 +6,67 @@ import Image from 'next/image';
 const speakersByYear = {
   2019: [
     {
-      name: "Speaker 2020 A",
-      title: "Title 2020 A",
+      name: "Laxmi Bhawani",
+      title: "Chief of UNICEF Gujarat",
       image: "/placeholder.svg?height=300&width=300",
-      profileUrl: "https://www.ted.com/profiles/speaker2020a"
+      profileUrl: "https://www.ted.com/profiles/laxmi-bhawani",
+      description: "Dr. Laxmi Bhavani, Chief of UNICEF Gujarat is currently responsible for the coordination and management of the UNICEF Programmes in Gujarat State. She undertakes policy dialogue and advocacy with government and other partners for enhancement of children and women's rights. She served as the Child Development and Nutrition Specialist in UNICEF in Rajasthan, Andhra Pradesh, Telangana and Karnataka. She provided leadership to Early Child Development and Nutrition programmes in the states with upstreaming and evidence-based policy advocacy for children and women's rights to create enabling policy environment and its mainstreaming in poverty reduction and other development programmes. She has developed multisectoral and multi stakeholder networks and tried out inclusive and sustainable community based care models for promoting child development and nutrition with focus on tribal communities. She tried out knowledge models such as Community based Systems Dynamics on nutrition and Nutrition surveillance.",
     },
     {
-      name: "Speaker 2020 B",
-      title: "Title 2020 B",
+      name: "Lokesh Nathany",
+      title: "Founder, DiSRUPPt Thinking, Life, Business & Financial Coach",
       image: "/placeholder.svg?height=300&width=300",
-      profileUrl: "https://www.ted.com/profiles/speaker2020b"
+      profileUrl: "https://www.ted.com/profiles/lokesh-nathany",
+      description: "Lokesh Nathany, Founder, DiSRUPPt Thinking, Life, Business & Financial Coach & Networker. Before starting DiSRUPPt Thinking, he have worked for over 25 years in financial services industry for names like Franklin Templeton. HDFC, ICICI, MOTILAL OSWAL, Karvy etc. and managed both India and Middle East markets. He has done various programs on business TV channels & wrote regularly in all leading business newspapers, English Dailies, websites & magazines.",
+    },
+    {
+      name: "Nag Ashwin",
+      title: "Indian Film Director and Screenwriter",
+      image: "/placeholder.svg?height=300&width=300",
+      profileUrl: "https://www.ted.com/profiles/nag-ashwin",
+      description: "Nag Ashwin Reddy is an Indian film director and screenwriter from Hyderabad, Telangana. He is most known as a director for a Telugu-Tamil bilingual biopic \"Mahanati\", based on the life of late legendary south Indian actress Savitri.",
+    },
+    {
+      name: "Nandita Sethi",
+      title: "Founder & MD, The Entrepreneur Zone",
+      image: "/placeholder.svg?height=300&width=300",
+      profileUrl: "https://www.ted.com/profiles/nandita-sethi",
+      description: "Dr. Nandita Sethi Founder & MD, The Entrepreneur Zone Vice-Chair, CII-Indian Women Network, Telangana, Mentor for Startups, Professor in Economics, Trainer and Author.",
+    },
+    {
+      name: "Olly Esse",
+      title: "International Music Artist and Performer",
+      image: "/placeholder.svg?height=300&width=300",
+      profileUrl: "https://www.ted.com/profiles/olly-esse",
+      description: "Olly Esse is no stranger to the limelight. Known for her energetic performances on stage, she's a force to recon with. Having been performing around the globe for the past 13 years, she's humbled to have performed alongside some great musicians. With the success of her music, she's considered among the most anticipated upcoming music artists. Her music and charisma has earned her a huge fan base in India and globally.",
+    },
+    {
+      name: "R. S. Praveen Kumar",
+      title: "IPS Officer and Social Change Leader",
+      image: "/placeholder.svg?height=300&width=300",
+      profileUrl: "https://www.ted.com/profiles/rs-praveen-kumar",
+      description: "R. S. PRAVEEN KUMAR is an IPS officer of the 1995 batch, India. Dr Praveen Kumar is widely known as the brain behind the success story of the Everest conquerors Malavath Purna and Sandhanapalli Anand Kumar.",
+    },
+    {
+      name: "Rakesh Pulapa",
+      title: "Award-winning Landscape/Aerial Photographer",
+      image: "/placeholder.svg?height=300&width=300",
+      profileUrl: "https://www.ted.com/profiles/rakesh-pulapa",
+      description: "He is a computer science engineer turned into Landscape/ Aerial photographer. He started photography as a hobby and soon evolved into a passionate Photographer. Achievements: Winner of National Geographic India Competition 2018, Finalist in National Geographic Travel Photographer of the year 2018, Winner of China tourism competition 2018, Winner of Click India Photography 2018, Gold Medalist in Eyewin awards 2018, and declared one of the 100 incredible passionate photographers in world 2018 by Palsmaniaa, Theme winner of Canon India 2017.",
+    },
+    {
+      name: "Swami Bodhamayananda",
+      title: "Director, Ramakrishna Math, Hyderabad",
+      image: "/placeholder.svg?height=300&width=300",
+      profileUrl: "https://www.ted.com/profiles/swami-bodhamayananda",
+      description: "Inspired by the teachings of Sri Ramakrishna, Swami Vivekananda and Vedanta during his school days, Swami Bodhamayananda joined the Ramakrishna Order after graduation in the Bangalore centre in 1984 and was initiated into monastic vows in 1993. After initial training, he served the Mission in Hyderabad, Visakhapatnam and Chennai between 1989 and 2010 and was involved in various youth activities during that period. Since May 2010 he is serving as the Director in Ramakrishna Math, Hyderabad.",
+    },
+    {
+      name: "Tanya Mittal",
+      title: "Miss Asia 2018, CEO of HANDMADE LOVE",
+      image: "/placeholder.svg?height=300&width=300",
+      profileUrl: "https://www.ted.com/profiles/tanya-mittal",
+      description: "Tanya Mittal is 22 years old and hails from Gwalior, Madhya Pradesh. She is a student from Chandigarh University and has won the crown \"Miss Asia 2018\" at Lebanon. In addition to winning the crown \"Miss Asia Tourism Universe India 2018\", she is also one of the youngest millionaires of India running her brand, \"HANDMADE LOVE\" as the Chief Executive Officer which exemplifies her exceptional beauty with brains personality. She became a business woman at an ephebic age as she had the urge to make difference in the society through her positive work influence. Tanya is also Associate Director of Bliss Foundation, a successful YouTuber, a motivational speaker, poet & author. Apart from her extraordinary merits, she masters more than 55 crafts and her NGOs are working for the underprivileged across India. Adding to this, she was also declared \"The Outstanding Young Person of Gwalior 2018\" honoured by Yashodhara Raje Scindia.",
     },
   ],
   
@@ -37,7 +88,7 @@ const speakersByYear = {
       {
         name: "Jagadeesh Reddy",
         title: "Natural Farmer",
-        image: "/tedx/jagadeesh.jpeg",
+        image: "/tedx/jagadeesh.jpg",
         profileUrl: "https://www.ted.com/profiles/speaker3",
         description: "A deep understanding of nature and its behavior, which he believes is crucial for farming. He firmly believes that natural farming is the closest form of farming to nature, Join us in supporting Mr. Jagadeesh's mission to practice natural farming and save our soil from harmful chemicals only harm the nutritious soil. His strongest desire is to save the soil from these chemicals and pesticides .He is dedicated in promoting the use of natural manure and ZBNF practices.",
       },
@@ -175,7 +226,7 @@ const SpeakerCards = () => {
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className="bg-white text-black p-8 rounded-lg max-w-md w-full mx-4 relative shadow-lg overflow-hidden"
+              className="bg-white text-black p-8 rounded-lg max-w-6xl w-full mx-4 relative shadow-lg overflow-hidden"
               onClick={(e) => e.stopPropagation()}
               initial={{ scale: 0.9, y: -50 }}
               animate={{ scale: 1, y: 0 }}
@@ -188,35 +239,37 @@ const SpeakerCards = () => {
               >
                 &times;
               </button>
-              <div className="w-full relative">
-              <Image
-                src={speakersByYear[selectedYear][selectedId].image}
-                alt={speakersByYear[selectedYear][selectedId].name}
-                width={400}
-                height={200}
-                objectFit="cover"
-                className="rounded-lg"
-              />
+              <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
+                <div className="flex-shrink-0 w-full md:w-auto">
+                <Image
+                  src={speakersByYear[selectedYear][selectedId].image}
+                  alt={speakersByYear[selectedYear][selectedId].name}
+                  width={384}
+                  height={512}
+                  objectFit="cover"
+                  className="rounded-lg md:rounded-xl mx-auto md:mx-0"
+                />
+                </div>
+                <div className="flex-1 space-y-4 text-center md:text-left relative pb-8">
+                  <h2 className="text-2xl font-bold text-red-600">
+                    {speakersByYear[selectedYear][selectedId].name}
+                  </h2>
+                <p className="text-sm text-gray-700">
+                  {speakersByYear[selectedYear][selectedId].title}
+                </p>
+                <p className="text-sm mb-6">
+                  {speakersByYear[selectedYear][selectedId].description}
+                </p>
+                <a
+                  href={speakersByYear[selectedYear][selectedId].profileUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block bottom-2 py-2 px-4 bg-red-600 text-white text-center font-bold rounded-full hover:bg-red-700 transition-colors duration-300"
+                >
+                  View Full Profile
+                </a>
+                </div>
               </div>
-              <div className="mt-4 max-h-60 overflow-y-auto">
-                <h2 className="text-2xl font-bold text-red-600 mb-2">
-                  {speakersByYear[selectedYear][selectedId].name}
-                </h2>
-              <p className="text-sm text-gray-700">
-                {speakersByYear[selectedYear][selectedId].title}
-              </p>
-              <p className="text-sm mb-6">
-                {speakersByYear[selectedYear][selectedId].description}
-              </p>
-              </div>
-              <a
-                href={speakersByYear[selectedYear][selectedId].profileUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full py-2 px-4 bg-red-600 text-white text-center font-bold rounded-full hover:bg-red-700 transition-colors duration-300"
-              >
-                View Full Profile
-              </a>
             </motion.div>
           </motion.div>
         )}
