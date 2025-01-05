@@ -76,10 +76,10 @@ const data = [
 
   },
   {
-    category: "Gauranga Darshan Das",
-    title: "From Entangle to Untangle",
+    category: "Olly Esse",
+    title: "Never Fear The Change",
     src: "/tedx/speakers/3.webp",
-    content: <DummyContent source={"https://youtu.be/6riMZFHJcmQ?si=TxIqLR5RZuIfDbtG"} />,
+    content: <DummyContent source={"https://youtu.be/Ol544Hu3jSQ?si=clLBpDshOv0W5CNI"} />,
 
   },
 

@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 
 const speakersByYear = {
-  2020: [
+  2019: [
     {
       name: "Speaker 2020 A",
       title: "Title 2020 A",
@@ -18,49 +18,8 @@ const speakersByYear = {
       profileUrl: "https://www.ted.com/profiles/speaker2020b"
     },
   ],
-  2021: [
-    {
-      name: "Speaker 2021 A",
-      title: "Title 2021 A",
-      image: "/placeholder.svg?height=300&width=300",
-      profileUrl: "https://www.ted.com/profiles/speaker2021a"
-    },
-    {
-      name: "Speaker 2021 B",
-      title: "Title 2021 B",
-      image: "/placeholder.svg?height=300&width=300",
-      profileUrl: "https://www.ted.com/profiles/speaker2021b"
-    },
-  ],
-  2022: [
-    {
-      name: "Jagadeesh Reddy",
-      title: "Natural Farmer",
-      image: "/tedx/jagadeesh.jpeg",
-      profileUrl: "https://www.ted.com/profiles/speaker3"
-    },
-    {
-      name: "Ms. Anvitha Kollipara",
-      title: "Founder of the non-profit organization Care Good",
-      image: "/tedx/anvitha.jpeg",
-      profileUrl: "https://www.ted.com/profiles/speaker4"
-    },
-  ],
+  
   2023: [
-    {
-      name: "Gauranga Darshan Das",
-      title: "Author, Monk and Teacher",
-      image: "/tedx/speaker1.jpeg",
-      profileUrl: "https://www.ted.com/profiles/speaker1"
-    },
-    {
-      name: "Ishmeet Kaur",
-      title: "Psychologist and Counseling",
-      image: "/tedx/ishmeet.jpg",
-      profileUrl: "https://www.ted.com/profiles/speaker2"
-    },
-  ],
-  2024: [
     {
         name: "Gauranga Darshan Das",
         title: "Author, Monk and Teacher",
