@@ -14,52 +14,132 @@ export default function Gallery() {
         '/tedx/events/team.jpg',
         '/tedx/events/indoor.jpg',
         '/tedx/events/outdoor.png',
+
     ]
 
     const [selectedId, setSelectedId] = useState(null)
 
     return (
-        <section className="bg-black mb-12 mt-20  ">
+        <section className="bg-black mb-12 mt-20">
             {/* Hero Section */}
-            <div className="max-w-6xl mb-12 px-12">   
-                <h2 className="text-4xl md:text-7xl font-bold text-neutral-100">
+            <div className="max-w-6xl mb-8 px-6">   
+                <h2 className="text-3xl md:text-5xl font-bold text-neutral-100">
                     Captured Moments at
                     <br />
-                    <span className="text-3xl text-red-500">TedxAnuragU</span>
+                    <span className="text-2xl text-red-500">TedxAnuragU</span>
                 </h2>
-                <p className="text-neutral-400 mt-4 max-w-2xl">
+                <p className="text-neutral-400 mt-4 max-w-xl">
                     Relive the vibrant energy and memorable moments from our events through these snapshots.
                 </p>
             </div>
 
             {/* Gallery Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 max-w-7xl mx-auto px-8 ">
-                {images.map((src, index) => (
+            <div className="grid grid-cols-6 gap-2 max-w-5xl mx-auto px-4">
+                <div className="col-span-4 row-span-2">
                     <motion.div
-                        key={index}
-                        layoutId={`image-${index}`}
-                        onClick={() => setSelectedId(index)}
-                        className={`cursor-pointer group relative `}
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
+                        layoutId={`image-0`}
+                        className="relative rounded-lg overflow-hidden shadow-md"
+                        onClick={() => setSelectedId(0)}
                     >
-                        <div className="relative rounded-lg overflow-hidden shadow-lg">
-                            <Image
-                                src={src}
-                                alt={`Gallery image ${index + 1}`}
-                                width={400}
-                                height={400}
-                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                            />
-                            {/* Overlay */}
-                            <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <p className="text-white font-semibold text-lg">
-                                    View Image
-                                </p>
-                            </div>
-                        </div>
+                        <Image
+                            src={images[0]}
+                            alt="Gallery image 1"
+                            width={800}
+                            height={600}
+                            className="w-full h-full object-cover"
+                        />
                     </motion.div>
-                ))}
+                </div>
+                <div className="col-span-2 row-span-1">
+                    <motion.div
+                        layoutId={`image-1`}
+                        className="relative rounded-lg overflow-hidden shadow-md"
+                        onClick={() => setSelectedId(1)}
+                    >
+                        <Image
+                            src={images[1]}
+                            alt="Gallery image 2"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </motion.div>
+                </div>
+                <div className="col-span-2 row-span-1">
+                    <motion.div
+                        layoutId={`image-2`}
+                        className="relative rounded-lg overflow-hidden shadow-md"
+                        onClick={() => setSelectedId(2)}
+                    >
+                        <Image
+                            src={images[2]}
+                            alt="Gallery image 3"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </motion.div>
+                </div>
+                <div className="col-span-2 row-span-2">
+                    <motion.div
+                        layoutId={`image-3`}
+                        className="relative rounded-lg overflow-hidden shadow-md"
+                        onClick={() => setSelectedId(3)}
+                    >
+                        <Image
+                            src={images[3]}
+                            alt="Gallery image 4"
+                            width={400}
+                            height={600}
+                            className="w-full h-full object-cover"
+                        />
+                    </motion.div>
+                </div>
+                <div className="col-span-4 row-span-1">
+                    <motion.div
+                        layoutId={`image-4`}
+                        className="relative rounded-lg overflow-hidden shadow-md"
+                        onClick={() => setSelectedId(4)}
+                    >
+                        <Image
+                            src={images[4]}
+                            alt="Gallery image 5"
+                            width={800}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </motion.div>
+                </div>
+                <div className="col-span-2 row-span-1">
+                    <motion.div
+                        layoutId={`image-5`}
+                        className="relative rounded-lg overflow-hidden shadow-md"
+                        onClick={() => setSelectedId(5)}
+                    >
+                        <Image
+                            src={images[5]}
+                            alt="Gallery image 6"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </motion.div>
+                </div>
+                <div className="col-span-2 row-span-1">
+                    <motion.div
+                        layoutId={`image-6`}
+                        className="relative rounded-lg overflow-hidden shadow-md"
+                        onClick={() => setSelectedId(6)}
+                    >
+                        <Image
+                            src={images[6]}
+                            alt="Gallery image 7"
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-cover"
+                        />
+                    </motion.div>
+                </div>
             </div>
 
             {/* Lightbox Modal */}
@@ -74,7 +154,7 @@ export default function Gallery() {
                         onClick={() => setSelectedId(null)}
                     >
                         <motion.div
-                            className="relative bg-neutral-800 p-5 rounded-lg shadow-xl"
+                            className="relative bg-neutral-800 p-4 rounded-lg shadow-lg"
                             initial={{ scale: 0.9 }}
                             animate={{ scale: 1 }}
                             exit={{ scale: 0.9 }}
@@ -82,8 +162,8 @@ export default function Gallery() {
                             <Image
                                 src={images[selectedId]}
                                 alt={`Gallery image ${selectedId + 1}`}
-                                width={800}
-                                height={800}
+                                width={600}
+                                height={600}
                                 className="rounded-lg object-cover"
                             />
                             {/* Close Button */}

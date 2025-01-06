@@ -24,13 +24,16 @@ const Footer = () => {
                         </p>
                         <div className='flex flex-col items-start gap-6 my-auto'>
                             <div className="flex gap-6 mt-5">
-                                <a href="#" className="text-white hover:text-gray-300 transition-colors">
+                                <a href="#" className="text-white hover:text-gray-300 transition-colors" target="_blank" 
+  rel="noopener noreferrer">
                                     <Facebook size={28} strokeWidth={1.5} />
                                 </a>
-                                <a href="#" className="text-white hover:text-gray-300 transition-colors">
+                                <a href="https://www.instagram.com/tedxanuragu/" className="text-white hover:text-gray-300 transition-colors" target="_blank" 
+  rel="noopener noreferrer">
                                     <Instagram size={28} strokeWidth={1.5} />
                                 </a>
-                                <a href="#" className="text-white hover:text-gray-300 transition-colors">
+                                <a href="https://www.linkedin.com/company/tedxanuragu/?originalSubdomain=in" className="text-white hover:text-gray-300 transition-colors" target="_blank" 
+  rel="noopener noreferrer">
                                     <Linkedin size={28} strokeWidth={1.5} />
                                 </a>
                             </div>
