@@ -11,8 +11,14 @@ const Footer = () => {
                     {/* Left section with logo and text */}
                     <div className="flex flex-col justify-start">
                         {/* TEDxAnuragU Logo */}
-                        <h1 className='text-5xl font-bold mb-2 mt-0'>TedX <span className='font-extralight'>AnuragU</span> </h1>
-
+                        <div className="relative w-96 h-28 mb-2 mt-0">
+                            <Image
+                                src="/tedx/logo-white ted white.webp"
+                                alt="TedX AnuragU Logo"
+                                layout="fill"
+                                objectFit="contain"
+                            />
+                        </div>
                         {/* License Text */}
                         <p className="text-sm text-gray-300 mb-2">
                             This independent TEDx event is operated under license from TED.
