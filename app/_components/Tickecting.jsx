@@ -36,7 +36,7 @@ const TicketPricing = () => {
         <div className='mt-8 mb-8 ' id='ticketing'>
             <h2
         className="text-4xl md:text-7xl font-bold text-neutral-200 font-sans px-12">
-       Get Your Ticket to the <br /> <span className="text-5xl text-red-500">TEDx Magic</span>
+       Get Your Ticket to the <br /> <span className="text-5xl text-red-500">TEDx AnuragU</span>
       </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 px-12 ">
 

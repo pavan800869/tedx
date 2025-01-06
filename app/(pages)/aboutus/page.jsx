@@ -59,7 +59,7 @@ const TeamCards = () => {
 
       {/* Team Section */}
       <div className="text-center mb-12">
-        <h1 className="text-3xl lg:text-5xl font-bold text-red-600 mb-4">
+        <h1 className="text-2xl lg:text-5xl font-bold text-red-600 mb-4">
           The #AnythingIsPossible Team
         </h1>
         <p className="text-neutral-400 text-lg">
@@ -98,9 +98,26 @@ const TeamCards = () => {
 
       {/* Footer Call-to-Action */}
       <div className="flex justify-center mt-16">
-        <button className="font-bold text-lg px-12 py-3 border-2 border-red-600 text-black-600  hover:bg-red-600 hover:text-white transition-colors duration-300">
-          Keep in touch
-        </button>
+  <a
+    href="mailto:tedx@anurag.edu.in"
+    className="font-bold text-lg px-12 py-3 border-2 border-red-600 text-black-600 hover:bg-red-600 hover:text-white transition-colors duration-300"
+  >
+    Keep in touch
+  </a>
+</div>
+
+      {/* YouTube Video */}
+      <div className="flex justify-center mt-16">
+        <iframe
+          width="660"
+          height="515"
+          src="https://www.youtube.com/embed/HUvuJEs0gvU"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="w-full max-w-5xl aspect-video rounded-lg shadow-lg"
+        ></iframe>
       </div>
     </div>
   );
