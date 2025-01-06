@@ -19,35 +19,46 @@ import Gallery from "./_components/Gallery";
 import SplashScreen from './_components/SplashScreen'; // Import the SplashScreen component
 import TicketPricing from "./_components/Tickecting";
 import TimeLine from "./_components/TimeLine";
-
+import ScrollReveal from "./_components/ScrollAnimation";
+import ScrollProgress from "./_components/Progress";
 export default function Home() {
   const lenisRef = useRef();
-  const [showSplash, setShowSplash] = useState(true); // State to manage splash screen visibility
+  const [showSplash, setShowSplash] = useState(true);
   
   useEffect(() => {
     function update(time) {
       lenisRef.current?.lenis?.raf(time);
     }
-  
     const rafId = requestAnimationFrame(update);
-  
     return () => cancelAnimationFrame(rafId);
   }, []);
 
- 
-
   return (
     <div className="bg-black">
-      
+      <ScrollProgress />
       <BlurFade delay={0.2}>
         <HeroSection />
       </BlurFade>
-      <TimeLine />
-      {/* <TEDxStatsPage /> */}
-      <TalksSection />
-      <TicketPricing />
-      <Gallery />
-      <Query />
+      
+      <ScrollReveal delay={0.2}>
+        <TimeLine />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={0.3}>
+        <TalksSection />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={0.2}>
+        <TicketPricing />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={0.3}>
+        <Gallery />
+      </ScrollReveal>
+      
+      <ScrollReveal delay={0.2}>
+        <Query />
+      </ScrollReveal>
       
       <ScrollToTop />
     </div>
