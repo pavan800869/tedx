@@ -29,7 +29,7 @@ export default function HomeSection() {
           transition={{ delay: 1.2, duration: 0.6 }}
           className="mt-4 mb-10 text-center"
         >
-          <p className="text-red-600 mb-2 text-sm sm:text-base lg:text-lg">01.03.25</p>
+          <p className="text-red-600 mb-2 text-sm sm:text-base lg:text-4xl font-bold">01.03.2025</p>
           <p className="tracking-widest text-sm sm:text-base lg:text-lg">Anurag University</p>
         </motion.div>
       </div>

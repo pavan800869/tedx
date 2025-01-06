@@ -11,8 +11,8 @@ function TalkSection() {
   return (
     (<div className="w-full h-fit mt-20 bg-black">
       <h2
-        className="text-4xl md:text-7xl font-bold text-neutral-200 font-sans px-12">
-        Featured Talks at <br /> <span className="text-5xl text-red-500"> TedxAnuragU</span>
+        className="text-3xl lg:text-5xl md:text-7xl font-bold text-neutral-200 font-sans px-12">
+        Featured Talks at <br /> <span className="tedx-3xl lg:text-5xl text-red-600"> Tedx AnuragU</span>
       </h2>
       <Carousel items={cards} />
     </div>)
@@ -71,8 +71,8 @@ const data = [
   {
     category: "Tanya Mittal",
     title: "How To Start a Startup",
-    src: "/tedx/speakers/5.webp",
-    content: <DummyContent source={"https://youtu.be/NRc7tVYy7CM?si=V1Bqa0LxTvTHAhff"} />,
+    src: "/tedx/speakers/3.webp",
+    content: <DummyContent source={"https://youtu.be/TSqlrDm_X24?si=90w9BNORPDDXMYSD"} />,
 
   },
   {
@@ -92,7 +92,7 @@ const data = [
   {
     category: "Olly Esse",
     title: "Never Fear The Change",
-    src: "/tedx/speakers/3.webp",
+    src: "/tedx/speakers/5.webp",
     content: <DummyContent source={"https://youtu.be/Ol544Hu3jSQ?si=clLBpDshOv0W5CNI"} />,
 
   },
@@ -102,7 +102,7 @@ const data = [
     category: "R. S. Praveen Kumar ",
     title: "The Power of Vulnerability ",
     src: "/tedx/speakers/6.webp",
-    content: <DummyContent source={"https://youtu.be/_0zwG2fwLOU?si=G8V57yIJmY7NBIMY"} />,
+    content: <DummyContent source={"https://youtu.be/byyFne9-uls?si=SrDTMMY3NXtPvsMg"} />,
 
   },
   // {

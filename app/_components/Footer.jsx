@@ -20,7 +20,7 @@ const Footer = () => {
 
                         {/* Copyright */}
                         <p className="text-sm text-gray-300">
-                            © TEDxAnuragU 2024
+                            © TEDxAnuragU 2025
                         </p>
                         <div className='flex flex-col items-start gap-6 my-auto'>
                             <div className="flex gap-6 mt-5">
@@ -47,13 +47,13 @@ const Footer = () => {
 
                     {/* Middle section with links */}
                     <div className='flex flex-col gap-5 text-lg'>
-                        <a href="/speakers">Speakers</a>
+
                         <a href="/aboutus">About</a>
                         <a href="/connect-with-us">Contact Us</a>
-                        
+
                     </div>
                     <div className='flex flex-col gap-5 text-lg '>
-                        
+
                         <a href="">Nominate Speaker</a>
                         <a href="">Sponsor</a>
                         <a href="">Attendee Rules &<br /> Regulations</a>

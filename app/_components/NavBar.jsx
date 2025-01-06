@@ -38,23 +38,23 @@ function NavBar() {
 
   return (
     <Disclosure as="nav" className="bg-neutral-950 w-full z-50 lg:sticky top-0 shadow-md pt-4 border-b-2 border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="flex flex-col justify-between max-w-full px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Image
+            <a href="/"><Image
               src="/tedx/logo-white.png"
               alt="TEDx Logo"
               width={200}
               height={400}
               className="h-10 md:h-14 lg:h-16 w-auto"
               priority
-            />
+            /></a>
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex gap-10 items-center">
-            <div className="flex gap-8 text-sm md:text-base font-semibold text-white">
+          <div className="hidden lg:flex gap-8 items-center ">
+            <div className="flex gap-8 text-sm md:text-base font-semibold text-white ">
               {navLinks.map((item, index) => (
                 <a
                   key={index}

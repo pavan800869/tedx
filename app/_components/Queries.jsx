@@ -2,14 +2,14 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export function Query() {
     return (
-        <div className="flex flex-col bg-white text-black items-center px-8 py-8">
+        <div className="flex flex-col bg-black text-white items-center px-8 py-8">
             <div>
                 <h1 className=" mt-8 font-bold text-3xl sm:text-4xl text-red-600">FAQs</h1>
             </div>
             <Accordion type="single" collapsible className="w-full   py-8 px-4 lg:px-40">
                 <AccordionItem value="item-1" className={"py-4"}>
                     <AccordionTrigger className={"text-2xl font-bold"}>
-                        <a href="/speakers" className="text-black">Who are the Speakers?</a>
+                        <a href="/speakers" className="text-white">Who are the Speakers?</a>
                     </AccordionTrigger>
                     <AccordionContent>
                         Tickets can be purchased starting January 12. For more information about the speakers, visit our <a href="/speakers" className="text-blue-400">Speakers Page</a>.
@@ -25,18 +25,18 @@ export function Query() {
                 </AccordionItem>
                 <AccordionItem value="item-3" className={"py-4"}>
                     <AccordionTrigger className={"text-2xl font-bold"}>
-                        <a href="/ticket-prices" className="text-black">What is the Ticket Price?</a>
+                        <a href="/ticket-prices" className="text-white">What is the Ticket Price?</a>
                     </AccordionTrigger>
                     <AccordionContent>
-                        TEDxAnuragU (Anurag University APJ Abdul Kalam Hall): $52 to $95 + $8 facility fee. For more ticketing information, visit our <a href="#tickets" className="text-blue-400">Ticket Prices Page</a>.
+                        TEDxAnuragU (Anurag University APJ Abdul Kalam Hall): Releasing Soon, visit our <a href="#tickets" className="text-blue-400">Ticket Prices Page</a>.
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4" className={"py-4"}>
                     <AccordionTrigger className={"text-2xl font-bold"}>
-                        <a href="/event-timings" className="text-black">What are the Event Timings?</a>
+                        <a href="/event-timings" className="text-white">What are the Event Timings?</a>
                     </AccordionTrigger>
                     <AccordionContent>
-                        The event is at Anurag University from 9 AM to 6 PM.
+                        The event is at Anurag University from 9 AM to 6 PM IST.
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>
