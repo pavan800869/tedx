@@ -5,34 +5,54 @@ const ScrollProgress = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth <= 768);
+    let rafId;
+    let lastScrollY = 0;
+    let currentProgress = 0;
+
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+
+    const smoothScroll = () => {
+      const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const targetProgress = (window.scrollY / totalHeight) * 100;
+      
+      // Smooth interpolation
+      const ease = 0.1;
+      currentProgress += (targetProgress - currentProgress) * ease;
+      
+      if (Math.abs(targetProgress - currentProgress) > 0.01) {
+        setProgress(currentProgress);
+        rafId = requestAnimationFrame(smoothScroll);
+      } else {
+        setProgress(targetProgress);
+      }
     };
 
-    const updateScroll = () => {
-      const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const progress = (window.scrollY / totalHeight) * 100;
-      setProgress(progress);
+    const onScroll = () => {
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(smoothScroll);
     };
 
     checkMobile();
     window.addEventListener('resize', checkMobile);
-    window.addEventListener('scroll', updateScroll);
+    window.addEventListener('scroll', onScroll);
     
     return () => {
       window.removeEventListener('resize', checkMobile);
-      window.removeEventListener('scroll', updateScroll);
+      window.removeEventListener('scroll', onScroll);
+      if (rafId) cancelAnimationFrame(rafId);
     };
   }, []);
 
   return (
     <div className="fixed top-0 left-0 w-full h-1 md:h-2 bg-transparent z-50">
       <div 
-        className="h-full bg-red-500 transition-all duration-150"
+        className="h-full bg-red-500 transition-transform duration-300 ease-out"
         style={{
           width: `${progress}%`,
           left: isMobile ? '0' : `${50 - progress/2}%`,
-          position: 'absolute'
+          position: 'absolute',
+          transform: `scaleX(${progress / 100})`,
+          transformOrigin: isMobile ? 'left' : 'center'
         }}
       />
     </div>
