@@ -63,14 +63,14 @@ function ConnectWithUs() {
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
               <Facebook />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
+            <a href="https://www.instagram.com/tedxanuragu/" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
               < Instagram />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
+            <a href="https://www.linkedin.com/company/tedxanuragu/?originalSubdomain=in" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
               <Linkedin />
             </a>
 
-            <a href="mailto:contact@tedx.com" className="text-white text-3xl hover:text-gray-400"><Mail /></a>
+            <a href="mailto:tedx@anurag.edu.in" className="text-white text-3xl hover:text-gray-400"><Mail /></a>
           </div>
         </div>
       </div>
