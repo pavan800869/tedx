@@ -22,10 +22,10 @@ export default function Gallery() {
         <section className="bg-black mb-12 mt-20  ">
             {/* Hero Section */}
             <div className="max-w-6xl mb-12 px-12">   
-                <h2 className="text-3xl lg:text-4xl md:text-7xl font-bold text-neutral-100">
+                <h2 className="text-3xl lg:text-5xl md:text-7xl font-bold text-neutral-100">
                     Captured Moments at
                     <br />
-                    <span className="tedx-3xl lg:text-5xl text-red-500">Tedx AnuragU</span>
+                    <span className="tedx-3xl lg:text-5xl text-red-600">Tedx AnuragU</span>
                 </h2>
                 <p className="text-neutral-400 mt-4 max-w-2xl">
                     Relive the vibrant energy and memorable moments from our events through these snapshots.
