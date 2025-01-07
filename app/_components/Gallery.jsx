@@ -14,7 +14,6 @@ export default function Gallery() {
         '/tedx/events/team.jpg',
         '/tedx/events/indoor.jpg',
         '/tedx/events/outdoor.png',
-
     ]
 
     const [selectedId, setSelectedId] = useState(null)
@@ -22,13 +21,11 @@ export default function Gallery() {
     return (
         <section className="bg-black mb-12 mt-20">
             {/* Hero Section */}
-
-            <div className="max-w-6xl mb-12 px-12">   
+            <div className="max-w-6xl mb-12 px-12">
                 <h2 className="text-3xl lg:text-5xl md:text-7xl font-bold text-neutral-100">
                     Captured Moments at
                     <br />
-                    <span className="tedx-3xl lg:text-5xl text-red-600">Tedx AnuragU</span>
-
+                    <span className="text-3xl lg:text-5xl text-red-600">Tedx AnuragU</span>
                 </h2>
                 <p className="text-neutral-400 mt-4 max-w-xl">
                     Relive the vibrant energy and memorable moments from our events through these snapshots.
@@ -37,111 +34,28 @@ export default function Gallery() {
 
             {/* Gallery Grid */}
             <div className="grid grid-cols-6 gap-2 max-w-5xl mx-auto px-4">
-                <div className="col-span-4 row-span-2">
+                {images.map((image, index) => (
                     <motion.div
-                        layoutId={`image-0`}
-                        className="relative rounded-lg overflow-hidden shadow-md"
-                        onClick={() => setSelectedId(0)}
+                        key={index}
+                        layoutId={`image-${index}`}
+                        className={`relative rounded-lg overflow-hidden shadow-md ${
+                            index === 0 ? 'col-span-4 row-span-2' : index === 3 ? 'col-span-2 row-span-2' : 'col-span-2 row-span-1'
+                        }`}
+                        onClick={() => setSelectedId(index)}
                     >
                         <Image
-                            src={images[0]}
-                            alt="Gallery image 1"
+                            src={image}
+                            alt={`Gallery image ${index + 1}`}
                             width={800}
                             height={600}
                             className="w-full h-full object-cover"
                         />
+                        {/* Hover Effect */}
+                        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <span className="text-white font-semibold text-lg">View Image</span>
+                        </div>
                     </motion.div>
-                </div>
-                <div className="col-span-2 row-span-1">
-                    <motion.div
-                        layoutId={`image-1`}
-                        className="relative rounded-lg overflow-hidden shadow-md"
-                        onClick={() => setSelectedId(1)}
-                    >
-                        <Image
-                            src={images[1]}
-                            alt="Gallery image 2"
-                            width={400}
-                            height={300}
-                            className="w-full h-full object-cover"
-                        />
-                    </motion.div>
-                </div>
-                <div className="col-span-2 row-span-1">
-                    <motion.div
-                        layoutId={`image-2`}
-                        className="relative rounded-lg overflow-hidden shadow-md"
-                        onClick={() => setSelectedId(2)}
-                    >
-                        <Image
-                            src={images[2]}
-                            alt="Gallery image 3"
-                            width={400}
-                            height={300}
-                            className="w-full h-full object-cover"
-                        />
-                    </motion.div>
-                </div>
-                <div className="col-span-2 row-span-2">
-                    <motion.div
-                        layoutId={`image-3`}
-                        className="relative rounded-lg overflow-hidden shadow-md"
-                        onClick={() => setSelectedId(3)}
-                    >
-                        <Image
-                            src={images[3]}
-                            alt="Gallery image 4"
-                            width={400}
-                            height={600}
-                            className="w-full h-full object-cover"
-                        />
-                    </motion.div>
-                </div>
-                <div className="col-span-4 row-span-1">
-                    <motion.div
-                        layoutId={`image-4`}
-                        className="relative rounded-lg overflow-hidden shadow-md"
-                        onClick={() => setSelectedId(4)}
-                    >
-                        <Image
-                            src={images[4]}
-                            alt="Gallery image 5"
-                            width={800}
-                            height={300}
-                            className="w-full h-full object-cover"
-                        />
-                    </motion.div>
-                </div>
-                <div className="col-span-2 row-span-1">
-                    <motion.div
-                        layoutId={`image-5`}
-                        className="relative rounded-lg overflow-hidden shadow-md"
-                        onClick={() => setSelectedId(5)}
-                    >
-                        <Image
-                            src={images[5]}
-                            alt="Gallery image 6"
-                            width={400}
-                            height={300}
-                            className="w-full h-full object-cover"
-                        />
-                    </motion.div>
-                </div>
-                <div className="col-span-2 row-span-1">
-                    <motion.div
-                        layoutId={`image-6`}
-                        className="relative rounded-lg overflow-hidden shadow-md"
-                        onClick={() => setSelectedId(6)}
-                    >
-                        <Image
-                            src={images[6]}
-                            alt="Gallery image 7"
-                            width={400}
-                            height={300}
-                            className="w-full h-full object-cover"
-                        />
-                    </motion.div>
-                </div>
+                ))}
             </div>
 
             {/* Lightbox Modal */}
