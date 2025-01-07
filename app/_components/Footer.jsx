@@ -11,16 +11,16 @@ const Footer = () => {
                     {/* Left section with logo and text */}
                     <div className="flex flex-col justify-start">
                         {/* TEDxAnuragU Logo */}
-                        <div className="relative w-96 h-28 mb-2 mt-0">
+                        <div className="relative w-64 h-28 md:w-64 md:h-20 lg:w-96 lg:h-28 mb-4">
                             <Image
-                                src="/tedx/logo-white ted white.webp"
+                                src="/tedx/logo-white-new.png"
                                 alt="TedX AnuragU Logo"
                                 layout="fill"
                                 objectFit="contain"
                             />
                         </div>
                         {/* License Text */}
-                        <p className="text-sm text-gray-300 mb-2">
+                        <p className="text-sm text-gray-300 mb-2 -mt-8">
                             This independent TEDx event is operated under license from TED.
                         </p>
 
@@ -52,13 +52,13 @@ const Footer = () => {
                     </div>
 
                     {/* Middle section with links */}
-                    <div className='flex flex-col gap-5 text-lg'>
+                    <div className='flex flex-col gap-5 text-lg mt-6'>
 
                         <a href="/aboutus">About</a>
                         <a href="/connect-with-us">Contact Us</a>
 
                     </div>
-                    <div className='flex flex-col gap-5 text-lg '>
+                    <div className='flex flex-col gap-5 text-lg mt-6'>
 
                         <a href="">Nominate Speaker</a>
                         <a href="">Sponsor</a>
