@@ -60,28 +60,29 @@ const Footer = () => {
                     </div>
 
                     {/* Middle section with links */}
-                    <div className="flex flex-col md:flex-row w-full md:w-2/3 gap-12">
+                    <div className="flex flex-col md:flex-row w-full md:w-2/3 gap-6 md:gap-12">
                         {/* Links */}
                         <div className="flex flex-col gap-4 w-full md:w-1/2">
                             <a href="/aboutus" className="text-lg hover:text-gray-300">
-                                About
+                            About
                             </a>
                             <a href="/connect-with-us" className="text-lg hover:text-gray-300">
-                                Contact Us
+                            Contact Us
                             </a>
                         </div>
                         <div className="flex flex-col gap-4 w-full md:w-1/2">
                             <a href="#" className="text-lg hover:text-gray-300">
-                                Nominate Speaker
+                            Nominate Speaker
                             </a>
                             <a href="#" className="text-lg hover:text-gray-300">
-                                Sponsor
+                            Sponsor
                             </a>
                             <a href="#" className="text-lg hover:text-gray-300">
-                                Attendee Rules &<br /> Regulations
+                            Attendee Rules &<br /> Regulations
                             </a>
                         </div>
                     </div>
+
 
                     {/* Right section with map */}
                     <div className="w-full md:w-1/3">
