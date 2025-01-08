@@ -23,7 +23,7 @@ function ConnectWithUs() {
         type: "spring",
         damping: 25,
         stiffness: 100,
-        duration: 0.4
+        duration: 0.2
       }
     }
   };
@@ -124,7 +124,7 @@ function ConnectWithUs() {
             className="flex justify-start gap-6 mt-6"
           >
             {[
-              { icon: <Twitter />, href: "https://twitter.com" },
+              { icon: <Twitter />, href: "https://twitter.com" }, 
               { icon: <Facebook />, href: "https://facebook.com" },
               { icon: <Instagram />, href: "https://www.instagram.com/tedxanuragu/" },
               { icon: <Linkedin />, href: "https://www.linkedin.com/company/tedxanuragu/?originalSubdomain=in" },
