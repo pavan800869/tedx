@@ -3,6 +3,7 @@ import "./globals.css";
 import BlurFade from "./_components/blur-fade";
 import NavBar from "./_components/NavBar";
 import Footer from "./_components/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       >
         <NavBar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
