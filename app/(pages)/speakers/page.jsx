@@ -214,66 +214,68 @@ const SpeakerCards = () => {
           </AnimatePresence>
         </div>
       </div>
-
-      {/* Modal */}
+        {/*Modal*/}
       <AnimatePresence>
-        {selectedId !== null && (
-          <motion.div
-            className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
-            onClick={() => setSelectedId(null)}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
+          {selectedId !== null && (
             <motion.div
-              className="bg-white text-black p-8 rounded-lg max-w-6xl w-full mx-4 relative shadow-lg overflow-hidden"
-              onClick={(e) => e.stopPropagation()}
-              initial={{ scale: 0.9, y: -50 }}
-              animate={{ scale: 1, y: 0 }}
-              exit={{ scale: 0.9, y: 50 }}
-              transition={{ type: 'spring', stiffness: 260, damping: 20 }}
+              className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
+              onClick={() => setSelectedId(null)}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
             >
-              <button
-                onClick={() => setSelectedId(null)}
-                className="absolute top-2 right-2 text-red-600 hover:text-red-800 text-2xl"
+              <motion.div
+                className="bg-white text-black p-4 sm:p-6 md:p-8 rounded-lg max-w-6xl w-full mx-4 relative shadow-lg overflow-hidden overflow-y-auto"
+                onClick={(e) => e.stopPropagation()}
+                initial={{ scale: 0.9, y: -50 }}
+                animate={{ scale: 1, y: 0 }}
+                exit={{ scale: 0.9, y: 50 }}
+                transition={{ type: 'spring', stiffness: 260, damping: 20 }}
+                style={{ maxHeight: '90vh' }}
               >
-                &times;
-              </button>
-              <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
-                <div className="flex-shrink-0 w-full md:w-auto">
-                <Image
-                  src={speakersByYear[selectedYear][selectedId].image}
-                  alt={speakersByYear[selectedYear][selectedId].name}
-                  width={384}
-                  height={512}
-                  objectFit="cover"
-                  className="rounded-lg md:rounded-xl mx-auto md:mx-0"
-                />
-                </div>
-                <div className="flex-1 space-y-4 text-center md:text-left relative pb-8">
-                  <h2 className="text-2xl font-bold text-red-600">
-                    {speakersByYear[selectedYear][selectedId].name}
-                  </h2>
-                <p className="text-sm text-gray-700">
-                  {speakersByYear[selectedYear][selectedId].title}
-                </p>
-                <p className="text-sm mb-6">
-                  {speakersByYear[selectedYear][selectedId].description}
-                </p>
-                <a
-                  href={speakersByYear[selectedYear][selectedId].profileUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block bottom-2 py-2 px-4 bg-red-600 text-white text-center font-bold rounded-full hover:bg-red-700 transition-colors duration-300"
+                <button
+                  onClick={() => setSelectedId(null)}
+                  className="absolute top-2 right-2 text-red-600 hover:text-red-800 text-2xl"
                 >
-                  View Full Profile
-                </a>
+                  &times;
+                </button>
+                <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
+                  {/* Image */}
+                  <div className="flex-shrink-0 w-full md:w-auto">
+                    <Image
+                      src={speakersByYear[selectedYear][selectedId].image}
+                      alt={speakersByYear[selectedYear][selectedId].name}
+                      width={384}
+                      height={512}
+                      className="rounded-lg md:rounded-xl mx-auto md:mx-0"
+                      style={{ width: '100%', height: 'auto' }}
+                    />
+                  </div>
+                  {/* Content */}
+                  <div className="flex-1 space-y-4 text-center md:text-left relative pb-8">
+                    <h2 className="text-2xl font-bold text-red-600">
+                      {speakersByYear[selectedYear][selectedId].name}
+                    </h2>
+                    <p className="text-sm text-gray-700">
+                      {speakersByYear[selectedYear][selectedId].title}
+                    </p>
+                    <p className="text-sm mb-6">
+                      {speakersByYear[selectedYear][selectedId].description}
+                    </p>
+                    <a
+                      href={speakersByYear[selectedYear][selectedId].profileUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block bottom-2 py-2 px-4 bg-red-600 text-white text-center font-bold rounded-full hover:bg-red-700 transition-colors duration-300"
+                    >
+                      View Full Profile
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </motion.div>
             </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          )}
+        </AnimatePresence>
     </div>
   );
 };
