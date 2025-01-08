@@ -11,8 +11,8 @@ function TalkSection() {
   return (
     (<div className="w-full h-fit mt-20 bg-black">
       <h2
-        className="text-3xl lg:text-5xl md:text-7xl font-bold text-neutral-200 font-sans px-12">
-        Featured Talks at <br /> <span className="tedx-3xl lg:text-5xl text-red-600"> Tedx AnuragU</span>
+        className="text-3xl lg:text-6xl md:text-7xl font-bold text-neutral-200 font-sans px-12">
+        Featured Talks at <br /> <span className="tedx-3xl lg:text-5xl text-red-600"> Tedx Anurag</span>
       </h2>
       <Carousel items={cards} />
     </div>)

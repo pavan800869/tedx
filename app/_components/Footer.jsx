@@ -4,22 +4,25 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer id="contact" className="w-full bg-red-600 text-white py-8">
+        <footer id="footer" className="w-full bg-red-600 text-white py-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
                 <div className="flex flex-col md:flex-row justify-between gap-12">
                     {/* Left section with logo and text */}
                     <div className="flex flex-col items-start w-full md:w-1/3">
                         {/* TEDxAnuragU Logo */}
-                        <div className="relative w-56 h-16 md:w-96 md:h-28 mb-4">
+
+                        
+                        <div className="relative w-64 h-28 md:w-64 md:h-20 lg:w-96 lg:h-28 mb-4">
+
                             <Image
-                                src="/tedx/logo-white ted white.webp"
+                                src="/tedx/footer_logo.webp"
                                 alt="TedX AnuragU Logo"
                                 layout="fill"
                                 objectFit="contain"
                             />
                         </div>
                         {/* License Text */}
-                        <p className="text-sm text-gray-300 mb-2">
+                        <p className="text-sm text-gray-300 mb-2 -mt-8">
                             This independent TEDx event is operated under license from TED.
                         </p>
                         {/* Copyright */}
@@ -60,27 +63,19 @@ const Footer = () => {
                     </div>
 
                     {/* Middle section with links */}
-                    <div className="flex flex-col md:flex-row w-full md:w-2/3 gap-6 md:gap-12">
-                        {/* Links */}
-                        <div className="flex flex-col gap-4 w-full md:w-1/2">
-                            <a href="/aboutus" className="text-lg hover:text-gray-300">
-                            About
-                            </a>
-                            <a href="/connect-with-us" className="text-lg hover:text-gray-300">
-                            Contact Us
-                            </a>
-                        </div>
-                        <div className="flex flex-col gap-4 w-full md:w-1/2">
-                            <a href="#" className="text-lg hover:text-gray-300">
-                            Nominate Speaker
-                            </a>
-                            <a href="#" className="text-lg hover:text-gray-300">
-                            Sponsor
-                            </a>
-                            <a href="#" className="text-lg hover:text-gray-300">
-                            Attendee Rules &<br /> Regulations
-                            </a>
-                        </div>
+
+                    <div className='flex flex-col gap-5 text-lg mt-6'>
+
+                        <a href="/aboutus">About</a>
+                        <a href="/connect-with-us">Contact Us</a>
+
+                    </div>
+                    <div className='flex flex-col gap-5 text-lg mt-6'>
+
+                        <a href="">Nominate Speaker</a>
+                        <a href="">Sponsor</a>
+                        <a href="">Attendee Rules &<br /> Regulations</a>
+
                     </div>
 
 

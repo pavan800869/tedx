@@ -21,6 +21,7 @@ import TicketPricing from "./_components/Tickecting";
 import TimeLine from "./_components/TimeLine";
 import ScrollReveal from "./_components/ScrollAnimation";
 import ScrollProgress from "./_components/Progress";
+import Head from "next/head";
 export default function Home() {
   const lenisRef = useRef();
   const [showSplash, setShowSplash] = useState(true);
@@ -35,6 +36,9 @@ export default function Home() {
 
   return (
     <div className="bg-black">
+      <Head>
+          <link rel="icon" href="/favicon.ico" />
+      </Head>
       <ScrollProgress />
       <BlurFade delay={0.2}>
         <HeroSection />

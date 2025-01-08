@@ -1,7 +1,7 @@
-import { ArrowRight, ArrowRightCircleIcon, Facebook, FacebookIcon, Handshake, Instagram, Linkedin, Mail, Mic, Mic2Icon, Twitter, TwitterIcon, X } from 'lucide-react';
+import { ArrowRight, ArrowRightCircleIcon, Facebook, FacebookIcon, Handshake, Instagram, Linkedin, Mail, Mic, Mic2Icon, Twitter, TwitterIcon, X, Youtube } from 'lucide-react';
 import Link from 'next/link'
 import React from 'react'
-
+import {FaXTwitter} from 'react-icons/fa6'
 function ConnectWithUs() {
   return (
     <div className="min-h-screen bg-black text-neutral-600 p-8 flex flex-col items-start">
@@ -34,7 +34,7 @@ function ConnectWithUs() {
         <div className="p-6 py-12  shadow-xl transition-all duration-300 ease-in-out border-b">
           <Handshake className=" text-white font-bold transition duration-200 h-24 w-24" />
 
-          <p className="text-white mb-4">Want to support TEDx Hyderabad as a sponsor ?</p>
+          <p className="text-white mb-4">Want to support TEDx AnuragU as a sponsor ?</p>
           <div className='flex gap-2'>
           <Link
               href="/nominate-speaker"
@@ -57,17 +57,17 @@ function ConnectWithUs() {
           <p className="text-white mb-4">Feel free to reach out through our social media or email.</p>
           <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4">Contact Us</h2>
           <div className="flex justify-start gap-6 mt-6">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
-              <Twitter />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
-              <Facebook />
+            <a href="https://x.com/TedxAnuragU?t=xg7trg0pg8sAMSPihCs7ug&s=09" target="_blank" rel="noopener noreferrer" className="text-white text-2xl hover:text-gray-400">
+              <FaXTwitter />
             </a>
             <a href="https://www.instagram.com/tedxanuragu/" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
-              < Instagram />
+              <Instagram />
             </a>
             <a href="https://www.linkedin.com/company/tedxanuragu/?originalSubdomain=in" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
               <Linkedin />
+            </a>
+            <a href="https://youtube.com/@anuraguniversi1?feature=shared" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-400">
+              <Youtube />
             </a>
 
             <a href="mailto:tedx@anurag.edu.in" className="text-white text-3xl hover:text-gray-400"><Mail /></a>
