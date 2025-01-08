@@ -23,7 +23,7 @@ function ConnectWithUs() {
         type: "spring",
         damping: 25,
         stiffness: 100,
-        duration: 0.8
+        duration: 0.4
       }
     }
   };

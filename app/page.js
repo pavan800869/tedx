@@ -52,7 +52,7 @@ export default function Home() {
         <TicketPricing />
       </ScrollReveal>
       
-      <ScrollReveal delay={0.3}>
+      <ScrollReveal delay={0.2}>
         <Gallery />
       </ScrollReveal>
       
