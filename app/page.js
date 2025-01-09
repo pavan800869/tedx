@@ -14,13 +14,14 @@ import Maps from "./_components/Maps";
 import TalksSection from "./_components/Talks";
 import LandingPage from "./_components/LandingPage";
 import TEDxStatsPage from "./_components/Stats";
-import ScrollToTop from "./_components/TopButton";
+import ScrollToTopAndWhatsApp from "./_components/TopButton";
 import Gallery from "./_components/Gallery";
 import SplashScreen from './_components/SplashScreen'; // Import the SplashScreen component
 import TicketPricing from "./_components/Tickecting";
 import TimeLine from "./_components/TimeLine";
 import ScrollReveal from "./_components/ScrollAnimation";
 import ScrollProgress from "./_components/Progress";
+import Head from "next/head";
 export default function Home() {
   const lenisRef = useRef();
   const [showSplash, setShowSplash] = useState(true);
@@ -35,6 +36,9 @@ export default function Home() {
 
   return (
     <div className="bg-black">
+      <Head>
+          <link rel="icon" href="/favicon.ico" />
+      </Head>
       <ScrollProgress />
       <BlurFade delay={0.2}>
         <HeroSection />
@@ -60,7 +64,7 @@ export default function Home() {
         <Query />
       </ScrollReveal>
       
-      <ScrollToTop />
+      <ScrollToTopAndWhatsApp />
     </div>
   );
 }

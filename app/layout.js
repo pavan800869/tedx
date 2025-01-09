@@ -17,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "TedX AnuragU",
+  title: "TEDxAnuragU | 1st March 2025 | Anurag University | Hyderabad",
   description:
     "TEDxAnuragU is a platform for ideas worth spreading. It is a local, self-organized event that brings people together to share a TED-like experience.",
 };
