@@ -44,23 +44,23 @@ export default function Home() {
         <HeroSection />
       </BlurFade>
       
-      <ScrollReveal delay={0.2}>
+      <ScrollReveal delay={0.1}>
         <TimeLine />
       </ScrollReveal>
       
-      <ScrollReveal delay={0.3}>
+      <ScrollReveal delay={0.1}>
         <TalksSection />
       </ScrollReveal>
       
-      <ScrollReveal delay={0.2}>
+      <ScrollReveal delay={0.1}>
         <TicketPricing />
       </ScrollReveal>
       
-      <ScrollReveal delay={0.3}>
+      <ScrollReveal delay={0.1}>
         <Gallery />
       </ScrollReveal>
       
-      <ScrollReveal delay={0.2}>
+      <ScrollReveal delay={0.1}>
         <Query />
       </ScrollReveal>
       

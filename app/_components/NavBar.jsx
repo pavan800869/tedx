@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
@@ -37,7 +37,7 @@ function NavBar() {
   }, [isMenuOpen]);
 
   return (
-    <Disclosure as="nav" className="bg-neutral-950 w-full z-50 lg:sticky top-0 shadow-md pt-4 border-b-2 border-neutral-900">
+    <Disclosure as="nav" className="bg-neutral-950 w-full z-50 lg:sticky top-0 shadow-md py-2 border-b-2 border-neutral-900">
       <div className="flex flex-col justify-between max-w-full px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}

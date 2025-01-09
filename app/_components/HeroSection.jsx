@@ -23,15 +23,13 @@ export default function HomeSection() {
         </div>
 
         {/* Text Below the Image */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2, duration: 0.6 }}
+        <div
+          
           className="mt-4 mb-10 text-center"
         >
-          <p className="text-red-600 mb-2 text-sm sm:text-base lg:text-4xl font-bold">01.03.2025</p>
+          <p className="text-red-600 mb-2 text-2xl sm:text-2xl lg:text-4xl font-bold">01.03.2025</p>
           <p className="tracking-widest text-sm sm:text-base lg:text-lg">Anurag University</p>
-        </motion.div>
+        </div>
       </div>
     </main>
   )
