@@ -14,7 +14,7 @@ import Maps from "./_components/Maps";
 import TalksSection from "./_components/Talks";
 import LandingPage from "./_components/LandingPage";
 import TEDxStatsPage from "./_components/Stats";
-import ScrollToTop from "./_components/TopButton";
+import ScrollToTopAndWhatsApp from "./_components/TopButton";
 import Gallery from "./_components/Gallery";
 import SplashScreen from './_components/SplashScreen'; // Import the SplashScreen component
 import TicketPricing from "./_components/Tickecting";
@@ -64,7 +64,7 @@ export default function Home() {
         <Query />
       </ScrollReveal>
       
-      <ScrollToTop />
+      <ScrollToTopAndWhatsApp />
     </div>
   );
 }

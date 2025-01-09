@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 
 export default function Gallery() {
@@ -41,7 +42,8 @@ export default function Gallery() {
                         className={`relative rounded-lg overflow-hidden shadow-md ${
                             index === 0 ? 'col-span-4 row-span-2' : index === 3 ? 'col-span-2 row-span-2' : 'col-span-2 row-span-1'
                         }`}
-                        onClick={() => setSelectedId(index)}
+                        onClick={() => {setSelectedId(index)
+                            router.push('/gallery')}}
                     >
                         <Image
                             src={image}
@@ -67,13 +69,16 @@ export default function Gallery() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        onClick={() => setSelectedId(null)}
+                        onClick={() => {setSelectedId(null)
+                            router.push('/gallery')}}
                     >
                         <motion.div
                             className="relative bg-neutral-800 p-4 rounded-lg shadow-lg"
                             initial={{ scale: 0.9 }}
                             animate={{ scale: 1 }}
                             exit={{ scale: 0.9 }}
+                            onClick={() => {setSelectedId(null)
+                                router.push('/gallery')}} // Prevents modal close on inner div click
                         >
                             <Image
                                 src={images[selectedId]}
@@ -85,7 +90,9 @@ export default function Gallery() {
                             {/* Close Button */}
                             <button
                                 className="absolute top-3 right-3 bg-red-500 text-white rounded-full p-2 hover:bg-red-600"
-                                onClick={() => setSelectedId(null)}
+                                onClick={() => {
+                                    setSelectedId(null) 
+                                }}
                             >
                                 ✕
                             </button>

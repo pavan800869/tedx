@@ -1,6 +1,7 @@
 import React from 'react';
-import { Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 import Image from 'next/image';
+import {FaXTwitter} from 'react-icons/fa6'
 
 const Footer = () => {
     return (
@@ -29,14 +30,14 @@ const Footer = () => {
                         <p className="text-sm text-gray-300 mb-6">
                             © TEDxAnuragU 2025
                         </p>
-                        <div className="flex gap-6">
+                        <div className="flex gap-5">
                             <a
-                                href="#"
+                                href="https://x.com/TedxAnuragU?t=xg7trg0pg8sAMSPihCs7ug&s=09"
                                 className="text-white hover:text-gray-300 transition-colors"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <Facebook size={24} strokeWidth={1.5} />
+                                <FaXTwitter size={24} strokeWidth={1.5} />
                             </a>
                             <a
                                 href="https://www.instagram.com/tedxanuragu/"
@@ -53,6 +54,14 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                             >
                                 <Linkedin size={24} strokeWidth={1.5} />
+                            </a>
+                            <a
+                                href="https://youtube.com/@anuraguniversi1?feature=shared"
+                                className="text-white hover:text-gray-300 transition-colors"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Youtube size={24} strokeWidth={1.5} />
                             </a>
                         </div>
                         <a href="/gallery" className="mt-4">
