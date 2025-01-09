@@ -9,9 +9,9 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
                 <div className="flex flex-col md:flex-row flex-wrap justify-between gap-12">
                     {/* Left section with logo and text */}
-                    <div className="flex flex-col items-start w-full md:w-1/3">
+                    <div className="flex flex-col items-start w-full md:w-1/3 -mt-9">
                         {/* TEDxAnuragU Logo */}
-                        <div className="relative w-48 h-20 md:w-64 md:h-24 lg:w-80 lg:h-28 mb-4">
+                        <div className="relative w-48 h-20 md:w-64 md:h-24 lg:w-80 lg:h-28 mb-4 -ml-3">
                             <Image
                                 src="/tedx/footer_logo.webp"
                                 alt="TEDx AnuragU Logo"
