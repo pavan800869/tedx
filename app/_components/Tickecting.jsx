@@ -34,9 +34,13 @@ const TicketPricing = () => {
     return (
         <div className='mt-8 mb-8 ' id='ticketing'>
             <h2
-        className="text-3xl lg:text-6xl md:text-7xl font-bold text-neutral-200 font-sans px-12">
-       Get Your Ticket to the <br /> <span className="tedx-3xl lg:text-5xl text-red-600">TEDx AnuragU</span>
-      </h2>
+    className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-200 font-sans px-4 sm:px-12">
+    Get Your Tickets To
+    <br />
+    <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-red-600">
+      Tedx AnuragU
+    </span>
+  </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 px-12 ">
 
                 {tickets.map((ticket) => (
