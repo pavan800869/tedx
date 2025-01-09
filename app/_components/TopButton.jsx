@@ -28,7 +28,7 @@ const ScrollToTopAndWhatsApp = () => {
     <div className="fixed bottom-8 right-8 z-50 flex flex-col items-center space-y-4">
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/+919154899950?text=Welcome to TEDxAnuragU"
+        href="https://wa.me/+919154899950?text=Hello"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 p-3 rounded-full shadow-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-300"
@@ -49,10 +49,10 @@ const ScrollToTopAndWhatsApp = () => {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.5 }}
             onClick={scrollToTop}
-            className="bg-red-500 p-3 rounded-full shadow-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-300"
+            className="bg-white p-3 rounded-full shadow-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-300"
             aria-label="Scroll to top"
           >
-            <ArrowUp className="w-6 h-6 text-white" />
+            <ArrowUp className="w-6 h-6 text-red-500" />
           </motion.button>
         )}
       </AnimatePresence>
