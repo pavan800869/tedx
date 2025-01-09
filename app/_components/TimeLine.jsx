@@ -38,7 +38,7 @@ function TimeLine() {
         <div className="w-full flex flex-col lg:flex-row gap-4 justify-between items-center mb-8 px-4 sm:px-16 lg:px-12">
           {/* Countdown */}
           <div className="text-left">
-            <p className="text-xl sm:text-xl font-bold tracking-widest text-red-600 mb-2">Countdown</p>
+            <p className="text-xl sm:text-xl font-bold tracking-widest text-red-600 mb-2">Begins in</p>
             <div className="flex space-x-2">
               {['days', 'hours', 'minutes', 'seconds'].map((unit) => (
                 <div
