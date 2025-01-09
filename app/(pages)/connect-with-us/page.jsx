@@ -69,8 +69,7 @@ function ConnectWithUs() {
           className="p-6 py-12 shadow-xl transition-all duration-500 ease-out border-b hover:border-red-600"
         >
           <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            
           >
             <Mic className="text-white font-bold transition duration-500 ease-out h-24 w-24" />
           </motion.div>
@@ -99,8 +98,7 @@ function ConnectWithUs() {
           className="p-6 py-12 shadow-xl transition-all duration-500 ease-out border-b hover:border-red-600"
         >
           <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            
           >
             <Handshake className="text-white font-bold transition duration-500 ease-out h-24 w-24" />
           </motion.div>
