@@ -1,8 +1,19 @@
 'use client'
-import { ArrowRight, ArrowRightCircleIcon, Facebook, FacebookIcon, Handshake, Instagram, Linkedin, Mail, Mic, Mic2Icon, Twitter, TwitterIcon, X } from 'lucide-react';
+
+import { 
+  ArrowRightCircleIcon, 
+  Handshake, 
+  Instagram, 
+  Linkedin, 
+  Mail, 
+  Mic, 
+  Twitter, 
+  Youtube 
+} from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 import { motion } from "framer-motion";
+import { FaXTwitter } from 'react-icons/fa6';
 
 function ConnectWithUs() {
   // Smooth animation variants
@@ -64,7 +75,7 @@ function ConnectWithUs() {
             <Mic className="text-white font-bold transition duration-500 ease-out h-24 w-24" />
           </motion.div>
 
-          <p className="text-white mb-4 mt-4">Know someone who belongs on our stage ?</p>
+          <p className="text-white mb-4 mt-4">Know someone who belongs on our stage?</p>
           <div className='flex gap-2 items-center'>
             <Link href="/nominate-speaker" className="text-white transition duration-500 ease-out group">
               <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4 group-hover:text-red-600">
@@ -94,11 +105,11 @@ function ConnectWithUs() {
             <Handshake className="text-white font-bold transition duration-500 ease-out h-24 w-24" />
           </motion.div>
 
-          <p className="text-white mb-4">Want to support TEDx Hyderabad as a sponsor ?</p>
+          <p className="text-white mb-4">Want to support TEDx AnuragU as a sponsor?</p>
           <div className='flex gap-2 items-center'>
             <Link href="/nominate-speaker" className="text-white transition duration-500 ease-out group">
               <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4 group-hover:text-red-600">
-                Partner With us
+                Partner With Us
               </h2>
             </Link>
             <motion.div
@@ -124,10 +135,10 @@ function ConnectWithUs() {
             className="flex justify-start gap-6 mt-6"
           >
             {[
-              { icon: <Twitter />, href: "https://twitter.com" }, 
-              { icon: <Facebook />, href: "https://facebook.com" },
+              { icon: <FaXTwitter />, href: "https://x.com/TedxAnuragU?t=xg7trg0pg8sAMSPihCs7ug&s=09" }, 
               { icon: <Instagram />, href: "https://www.instagram.com/tedxanuragu/" },
               { icon: <Linkedin />, href: "https://www.linkedin.com/company/tedxanuragu/?originalSubdomain=in" },
+              { icon: <Youtube />, href: "https://youtube.com/@anuraguniversi1?feature=shared" },
               { icon: <Mail />, href: "mailto:tedx@anurag.edu.in" }
             ].map((social, index) => (
               <motion.a

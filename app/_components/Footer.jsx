@@ -1,6 +1,7 @@
 import React from 'react';
-import { Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 import Image from 'next/image';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
@@ -12,8 +13,8 @@ const Footer = () => {
                         {/* TEDxAnuragU Logo */}
                         <div className="relative w-48 h-20 md:w-64 md:h-24 lg:w-80 lg:h-28 mb-4">
                             <Image
-                                src="/tedx/logo-white-new.png"
-                                alt="TedX AnuragU Logo"
+                                src="/tedx/footer_logo.webp"
+                                alt="TEDx AnuragU Logo"
                                 layout="fill"
                                 objectFit="contain"
                             />
@@ -29,12 +30,12 @@ const Footer = () => {
                         {/* Social Links */}
                         <div className="flex gap-6">
                             <a
-                                href="#"
+                                href="https://x.com/TedxAnuragU?t=xg7trg0pg8sAMSPihCs7ug&s=09"
                                 className="text-white hover:text-gray-300 transition-colors"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <Facebook size={24} strokeWidth={1.5} />
+                                <FaXTwitter size={24} strokeWidth={1.5} />
                             </a>
                             <a
                                 href="https://www.instagram.com/tedxanuragu/"
@@ -51,6 +52,14 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                             >
                                 <Linkedin size={24} strokeWidth={1.5} />
+                            </a>
+                            <a
+                                href="https://youtube.com/@anuraguniversi1?feature=shared"
+                                className="text-white hover:text-gray-300 transition-colors"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Youtube size={24} strokeWidth={1.5} />
                             </a>
                         </div>
                         {/* Event Photos Button */}

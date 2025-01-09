@@ -1,5 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-
+import Link from "next/link";
 export function Query() {
     return (
         <div className="flex flex-col bg-black text-white items-center px-8 py-8">
@@ -20,7 +20,10 @@ export function Query() {
                         Where is the Event Happening?
                     </AccordionTrigger>
                     <AccordionContent>
-                        The event will take place at Anurag University, APJ Abdul Kalam Hall. For directions and more details, visit the <a href="/footer" className="text-blue-400">Event Location Page</a>.
+                        The event will take place at Anurag University, APJ Abdul Kalam Hall. For directions and more details, visit the 
+                        <Link href="#footer">
+                        <a className="text-blue-400">Event Location Page</a>.
+                        </Link>
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3" className={"py-4"}>
@@ -28,7 +31,10 @@ export function Query() {
                         <a href="/ticket-prices" className="text-white">What is the Ticket Price?</a>
                     </AccordionTrigger>
                     <AccordionContent>
-                        TEDxAnuragU (Anurag University APJ Abdul Kalam Hall): Releasing Soon, visit our <a href="#tickets" className="text-blue-400">Ticket Prices Page</a>.
+                        TEDxAnuragU (Anurag University APJ Abdul Kalam Hall): Releasing Soon, visit our 
+                        <Link href="#ticketing">
+                        <a className="text-blue-400">Ticket Prices Page</a>.
+                        </Link>
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4" className={"py-4"}>
