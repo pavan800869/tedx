@@ -55,8 +55,8 @@ function TimeLine() {
           {/* Register Button */}
           <div className="text-right">
             <a
-              href="https://tally.so/r/3N46PQ"
-              target="_blank"
+              href="/register"
+              
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)}
               className="block"

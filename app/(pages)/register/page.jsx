@@ -7,7 +7,7 @@ function Page() {
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLScw-gc2Uzjn95G2yw-39ojeUmCGQCXUL3b9zbxqkQ41KDU4JQ/viewform?embedded=true"
           className="w-full h-full rounded-lg border-none"
-          style={{ height: 'fit', overflow: 'hidden' }}
+          style={{ height: '380vh', overflow: 'hidden' }}
           title="Google Form"
         >
           Loading…
