@@ -84,7 +84,7 @@ const Footer = () => {
                         <a href="#" className="hover:underline">
                             Sponsor
                         </a>
-                        <a href="#" className="hover:underline">
+                        <a href="/rules-and-regulations" className="hover:underline">
                             Attendee Rules &<br /> Regulations
                         </a>
                     </div>

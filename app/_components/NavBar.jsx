@@ -66,7 +66,7 @@ function NavBar() {
               ))}
             </div>
             <a
-              href="https://tally.so/r/3N46PQ"
+              href="/register"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
