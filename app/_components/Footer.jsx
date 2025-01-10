@@ -5,7 +5,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-        <footer id="contact" className="w-full bg-red-600 text-white py-8">
+        <footer id="footer" className="w-full bg-red-600 text-white py-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
                 <div className="flex flex-col md:flex-row flex-wrap justify-between gap-12">
                     {/* Left section with logo and text */}
@@ -95,7 +95,7 @@ const Footer = () => {
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121820.67668622274!2d78.51668553808736!3d17.416770927111912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb76730bf4dccf%3A0x2ca84b53416f0abd!2sAnurag%20University%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1733766357708!5m2!1sen!2sin"
                                 width="100%"
-                                height="100%"
+                                height="230px"
                                 style={{ border: 0 }}
                                 allowFullScreen=""
                                 loading="lazy"

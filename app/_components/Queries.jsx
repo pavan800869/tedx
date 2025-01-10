@@ -22,7 +22,7 @@ export function Query() {
                     <AccordionContent>
                         The event will take place at Anurag University, APJ Abdul Kalam Hall. For directions and more details, visit the 
                         <Link href="#footer">
-                        <a className="text-blue-400">Event Location Page</a>.
+                        <a className="text-blue-400"> Event Location Page</a>.
                         </Link>
                     </AccordionContent>
                 </AccordionItem>
@@ -33,7 +33,7 @@ export function Query() {
                     <AccordionContent>
                         TEDxAnuragU (Anurag University APJ Abdul Kalam Hall): Releasing Soon, visit our 
                         <Link href="#ticketing">
-                        <a className="text-blue-400">Ticket Prices Page</a>.
+                        <a className="text-blue-400"> Ticket Prices Page</a>.
                         </Link>
                     </AccordionContent>
                 </AccordionItem>
