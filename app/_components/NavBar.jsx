@@ -66,7 +66,7 @@ function NavBar() {
               ))}
             </div>
             <a
-              href="/register"
+              href="/"
               
               rel="noopener noreferrer"
               className="block"
