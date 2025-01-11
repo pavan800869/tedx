@@ -78,7 +78,7 @@ const Footer = () => {
                         <a href="/connect-with-us" className="hover:underline">
                             Contact Us
                         </a>
-                        <a href="#" className="hover:underline">
+                        <a href="/register" className="hover:underline">
                             Nominate Speaker
                         </a>
                         <a href="#" className="hover:underline">

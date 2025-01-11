@@ -76,7 +76,7 @@ function ConnectWithUs() {
 
           <p className="text-white mb-4 mt-4">Know someone who belongs on our stage?</p>
           <div className='flex gap-2 items-center'>
-            <Link href="/nominate-speaker" className="text-white transition duration-500 ease-out group">
+            <Link href="/register" className="text-white transition duration-500 ease-out group">
               <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4 group-hover:text-red-600">
                 Nominate Speaker
               </h2>
@@ -85,7 +85,7 @@ function ConnectWithUs() {
               whileHover={{ x: 10 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
-              <Link href="/nominate-speaker" className="text-white">
+              <Link href="/register" className="text-white">
                 <ArrowRightCircleIcon className='h-12 w-12' />
               </Link>
             </motion.div>
