@@ -81,7 +81,7 @@ const Footer = () => {
                         <a href="/register" className="hover:underline">
                             Nominate Speaker
                         </a>
-                        <a href="#" className="hover:underline">
+                        <a href="mailto:tedx@anurag.edu.in" className="hover:underline">
                             Sponsor
                         </a>
                         <a href="/rules-and-regulations" className="hover:underline">

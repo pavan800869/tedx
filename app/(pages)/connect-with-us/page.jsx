@@ -105,7 +105,7 @@ function ConnectWithUs() {
 
           <p className="text-white mb-4">Want to support TEDx AnuragU as a sponsor?</p>
           <div className='flex gap-2 items-center'>
-            <Link href="/nominate-speaker" className="text-white transition duration-500 ease-out group">
+            <Link href="mailto:tedx@anurag.edu.in" className="text-white transition duration-500 ease-out group">
               <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4 group-hover:text-red-600">
                 Partner With Us
               </h2>
@@ -114,7 +114,7 @@ function ConnectWithUs() {
               whileHover={{ x: 10 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
-              <Link href="/nominate-speaker" className="text-white">
+              <Link href="mailto:tedx@anurag.edu.in" className="text-white">
                 <ArrowRightCircleIcon className='h-12 w-12' />
               </Link>
             </motion.div>
