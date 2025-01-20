@@ -30,10 +30,11 @@ export default function Gallery() {
                     <img
                     src="/tedx/logo-white.png"
                     alt="Tedx AnuragU Logo"
-                    className="block sm:inline-block align-middle w-auto"
+                    className="block sm:inline-block align-middle"
                     style={{
                         height: '1.3em', 
-                        marginTop: '-0.15em', // Adjust vertical alignment
+                        marginTop: '-0.2em', // Adjust vertical alignment
+                        marginLeft: '-0.3em',
                     }}
                 />
                 </h2>

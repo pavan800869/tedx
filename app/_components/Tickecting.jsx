@@ -40,8 +40,9 @@ const TicketPricing = () => {
                     alt="Tedx AnuragU Logo"
                     className="block sm:inline-block align-middle w-auto"
                     style={{
-                        height: '1.4em', // Matches the text height
-                        marginTop: '-0.15em', // Adjust vertical alignment
+                        height: '1.3em', // Matches the text height
+                        marginTop: '-0.2em', // Adjust vertical alignment
+                        marginLeft: '-0.3em',
                     }}
                 />
             </h2>
