@@ -14,8 +14,8 @@ function TalkSection() {
         className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-200 font-sans px-4 sm:px-12">
         Featured Talks at
         <br />
-        <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-red-600">
-          TEDx Anurag
+        <span className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl text-red-600">
+          Anurag
         </span>
       </h2>
       <Carousel items={cards} />
