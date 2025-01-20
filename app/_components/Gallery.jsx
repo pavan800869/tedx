@@ -27,9 +27,15 @@ export default function Gallery() {
                     className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-200 font-sans px-4 sm:px-12">
                     The Glimpse at
                     <br />
-                    <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-red-600">
-                    Tedx AnuragU
-                    </span>
+                    <img
+                    src="/tedx/logo-white.png"
+                    alt="Tedx AnuragU Logo"
+                    className="block sm:inline-block align-middle w-auto"
+                    style={{
+                        height: '1.3em', 
+                        marginTop: '-0.15em', // Adjust vertical alignment
+                    }}
+                />
                 </h2>
                 <p className="text-neutral-400 mt-4 w-full px-4 sm:px-12">
                     Memorable moments from our events through these snapshots.
