@@ -7,7 +7,7 @@ function Page() {
     <div className="min-h-screen flex bg-black items-center justify-center p-4 sm:p-6 overflow-hidden">
       <div className="w-full max-w-4xl">
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeVggpCis81WRD1FB5y5Q_Af4B5UYtEdbKvSirKyelnWtLzLw/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLScw-gc2Uzjn95G2yw-39ojeUmCGQCXUL3b9zbxqkQ41KDU4JQ/viewform?embedded=true"
           className="w-full rounded-lg border-none"
           style={{
             height: '80vh', // Dynamic height for mobile and PC

@@ -55,7 +55,7 @@ function TimeLine() {
           {/* Register Button */}
           <div className="text-right">
             <a
-              href="/"
+              href="/register"
               
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)}

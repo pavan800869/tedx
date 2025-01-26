@@ -78,7 +78,7 @@ const Footer = () => {
                         <a href="/connect-with-us" className="hover:underline">
                             Contact Us
                         </a>
-                        <a href="/register" className="hover:underline">
+                        <a href="/speakerNomination" className="hover:underline">
                             Nominate Speaker
                         </a>
                         <a href="mailto:tedx@anurag.edu.in" className="hover:underline">

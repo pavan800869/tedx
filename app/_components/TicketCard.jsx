@@ -64,7 +64,7 @@ const TicketCard = ({
             </li>
           ))}
         </ul> */}
-        <Link href={isActive ? "/purchase" : "#"} passHref>
+        <Link href={isActive ? "/register" : "/"} passHref>
           <motion.button
             className={`w-full py-3 px-4 rounded-lg text-white font-semibold ${
               isActive

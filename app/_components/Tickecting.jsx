@@ -5,6 +5,7 @@ const tickets = [
     {
         type: 'Early Bird',
         price: 999,
+        originalPrice: 2999,
         startDate: '2025-01-10',
         endDate: '2025-01-31',
         isActive: true,

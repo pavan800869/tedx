@@ -66,7 +66,7 @@ function NavBar() {
               ))}
             </div>
             <a
-              href="/"
+              href="/register"
               
               rel="noopener noreferrer"
               className="block"
@@ -108,7 +108,7 @@ function NavBar() {
             </a>
           ))}
           <a
-            href="https://tally.so/r/3N46PQ"
+            href="/register"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsMenuOpen(false)}
