@@ -9,14 +9,14 @@ export default function HomeSection() {
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-between px-4 relative">
         {/* Image Section */}
-        <div className="relative w-full h-[250px] sm:h-[400px] md:h-[500px] lg:h-screen xl:h-[800px] overflow-hidden">
+        <div className="relative w-[90%] mx-auto h-[200px] sm:h-[350px] md:h-[400px] lg:h-screen xl:h-[650px] overflow-hidden">
           <Image
             src="/tedx/NextisNow-new.png"
             alt="Next is Now"
             fill
-            className="object-cover object-center "
+            className="object-cover object-center scale-90 sm:scale-100"
             priority
-            sizes="(max-width: 768px) 100vw,
+            sizes="(max-width: 768px) 90vw,
                    (max-width: 1200px) 100vw,
                    100vw"
             style={{
