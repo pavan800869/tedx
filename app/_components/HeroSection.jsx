@@ -9,16 +9,19 @@ export default function HomeSection() {
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-between px-4 relative">
         {/* Image Section */}
-        <div className="relative w-full h-[300px] md:h-[400px] lg:h-screen">
+        <div className="relative w-full h-[250px] sm:h-[400px] md:h-[500px] lg:h-screen xl:h-[800px] overflow-hidden">
           <Image
-            src="/main.webp"
+            src="/tedx/NextisNow-new.png"
             alt="Next is Now"
             fill
-            className="object-cover"
+            className="object-cover object-center "
             priority
             sizes="(max-width: 768px) 100vw,
                    (max-width: 1200px) 100vw,
                    100vw"
+            style={{
+                objectPosition: 'center', // Center-aligns the image
+            }}
           />
         </div>
 
