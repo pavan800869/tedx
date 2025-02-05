@@ -142,7 +142,7 @@ const speakersByYear = {
         description: "A scientist, artist, and captivating speaker all rolled into one, this young prodigy has already achieved numerous awards and accolades. Don't miss this opportunity to hear from a true visionary and be prepared to have your perspective on art, science and life forever changed. We are thrilled to announce that Zain Samdani, who defies boundaries and blurs the lines between science, art, and public speaking the inventor of ExoHeal, a revolutionary robotic medical device that helps paralyzed patients have a faster, accessible and affordable recovery, will be speaking at TEDxAnuragU on 4th March. As a World Champion, Diana Award winner, and a Global Finalist in the Google Science Fair, Zain's dedication to improving the lives of others through his innovation and technology is truly inspiring. His feature in tech crunch ,Forbes ,times of India and many more, is a testimony of his hard work and dedication.",
       },
   ],
-  2024: [
+  2025: [
     {
         "name": "Sandilya Pisapati",
         "title": "Violinist, Singer, and Composer in the Telugu Film Industry",
