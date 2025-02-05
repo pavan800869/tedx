@@ -142,9 +142,32 @@ const speakersByYear = {
         description: "A scientist, artist, and captivating speaker all rolled into one, this young prodigy has already achieved numerous awards and accolades. Don't miss this opportunity to hear from a true visionary and be prepared to have your perspective on art, science and life forever changed. We are thrilled to announce that Zain Samdani, who defies boundaries and blurs the lines between science, art, and public speaking the inventor of ExoHeal, a revolutionary robotic medical device that helps paralyzed patients have a faster, accessible and affordable recovery, will be speaking at TEDxAnuragU on 4th March. As a World Champion, Diana Award winner, and a Global Finalist in the Google Science Fair, Zain's dedication to improving the lives of others through his innovation and technology is truly inspiring. His feature in tech crunch ,Forbes ,times of India and many more, is a testimony of his hard work and dedication.",
       },
   ],
+  2024: [
+    {
+        "name": "Sandilya Pisapati",
+        "title": "Violinist, Singer, and Composer in the Telugu Film Industry",
+        "image": "/tedx/Sandilya_Pisapati.webp",
+        "profileUrl": "https://www.ted.com/profiles/speaker1",
+        "description": "Sandilya Pisapati is a distinguished musician renowned for his expertise as a violinist, singer, and composer in the Telugu film industry. With a remarkable ability to blend classical and contemporary styles, his compositions have significantly contributed to critically acclaimed films such as Manam and Bimbisara. As the leader of the fusion band Denique Grooves, he continues to push musical boundaries, creating innovative soundscapes that resonate with audiences worldwide. His deep understanding of music, combined with a passion for storytelling through sound, makes him an influential figure in the Indian music industry."
+    },
+    {
+        "name": "Riddhish Soni",
+        "title": "CEO of Aumsat Technologies",
+        "image": "/tedx/riddhish_soni.webp",
+        "profileUrl": "https://www.ted.com/profiles/speaker2",
+        "description": "Riddhish Soni is the visionary CEO of Aumsat Technologies, a pioneering company specializing in satellite-based radar analytics for sustainable water management. Under his leadership, Aumsat Technologies has developed cutting-edge solutions to detect underground water sources, monitor pipeline leaks, and optimize water resource utilization. His work plays a crucial role in addressing global water security challenges by leveraging advanced space technology and artificial intelligence. With a strong commitment to sustainability, Riddhish aims to revolutionize the way governments and industries manage water resources, ensuring long-term ecological balance and efficient water conservation."
+    },
+    {
+        "name": "Nishanth Dongari",
+        "title": "Founder and Managing Director of PURE EV",
+        "image": "/tedx/nishanth.webp",
+        "profileUrl": "https://www.ted.com/profiles/speaker3",
+        "description": "Dr. Nishanth Dongari is an esteemed innovator, entrepreneur, and academic, recognized as the Founder and Managing Director of PURE EV, a leading electric vehicle (EV) and battery technology company. With a strong research background in energy storage systems, he has spearheaded the development of high-performance lithium-ion batteries, accelerating the transition toward sustainable mobility solutions in India. Under his leadership, PURE EV has grown into a key player in the electric two-wheeler market, delivering eco-friendly transportation solutions that prioritize efficiency, affordability, and environmental consciousness. His groundbreaking contributions to clean energy and EV technology are shaping the future of smart and sustainable urban mobility."
+    }
+  ],
 };
 
-const years = Object.keys(speakersByYear).sort((a, b) => Number(a) - Number(b));
+const years = Object.keys(speakersByYear).sort((a, b) => Number(b) - Number(a));
 
 const SpeakerCards = () => {
   const [selectedYear, setSelectedYear] = useState(years[years.length - 1]);

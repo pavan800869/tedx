@@ -14,7 +14,7 @@ export default function HomeSection() {
             src="/tedx/NextisNow-new.png"
             alt="Next is Now"
             fill
-            className="object-cover object-center scale-90 sm:scale-100"
+            className="object-cover object-center scale-100 sm:scale-100"
             priority
             sizes="(max-width: 768px) 90vw,
                    (max-width: 1200px) 100vw,
