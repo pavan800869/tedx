@@ -146,21 +146,21 @@ const speakersByYear = {
     {
         "name": "Sandilya Pisapati",
         "title": "Violinist, Singer, and Composer in the Telugu Film Industry",
-        "image": "/tedx/Sandilya_Pisapati.webp",
+        "image": "/tedx/sandy.jpg",
         "profileUrl": "https://www.ted.com/profiles/speaker1",
         "description": "Sandilya Pisapati is a distinguished musician renowned for his expertise as a violinist, singer, and composer in the Telugu film industry. With a remarkable ability to blend classical and contemporary styles, his compositions have significantly contributed to critically acclaimed films such as Manam and Bimbisara. As the leader of the fusion band Denique Grooves, he continues to push musical boundaries, creating innovative soundscapes that resonate with audiences worldwide. His deep understanding of music, combined with a passion for storytelling through sound, makes him an influential figure in the Indian music industry."
     },
     {
         "name": "Riddhish Soni",
         "title": "CEO of Aumsat Technologies",
-        "image": "/tedx/riddhish_soni.webp",
+        "image": "/tedx/riddhish_soni.jpg",
         "profileUrl": "https://www.ted.com/profiles/speaker2",
         "description": "Riddhish Soni is the visionary CEO of Aumsat Technologies, a pioneering company specializing in satellite-based radar analytics for sustainable water management. Under his leadership, Aumsat Technologies has developed cutting-edge solutions to detect underground water sources, monitor pipeline leaks, and optimize water resource utilization. His work plays a crucial role in addressing global water security challenges by leveraging advanced space technology and artificial intelligence. With a strong commitment to sustainability, Riddhish aims to revolutionize the way governments and industries manage water resources, ensuring long-term ecological balance and efficient water conservation."
     },
     {
         "name": "Nishanth Dongari",
         "title": "Founder and Managing Director of PURE EV",
-        "image": "/tedx/nishanth.webp",
+        "image": "/tedx/nishanth.jpg",
         "profileUrl": "https://www.ted.com/profiles/speaker3",
         "description": "Dr. Nishanth Dongari is an esteemed innovator, entrepreneur, and academic, recognized as the Founder and Managing Director of PURE EV, a leading electric vehicle (EV) and battery technology company. With a strong research background in energy storage systems, he has spearheaded the development of high-performance lithium-ion batteries, accelerating the transition toward sustainable mobility solutions in India. Under his leadership, PURE EV has grown into a key player in the electric two-wheeler market, delivering eco-friendly transportation solutions that prioritize efficiency, affordability, and environmental consciousness. His groundbreaking contributions to clean energy and EV technology are shaping the future of smart and sustainable urban mobility."
     }
