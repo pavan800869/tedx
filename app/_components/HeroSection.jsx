@@ -8,8 +8,9 @@ export default function HomeSection() {
     <main className="bg-black text-white relative">
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-between px-4 relative">
-        {/* Image Section with Slightly Increased Size on Small Screens */}
-        <div className="relative w-[95%] sm:w-[90%] mx-auto h-[220px] sm:h-[370px] md:h-[400px] lg:h-screen xl:h-[650px] overflow-hidden">
+        {/* Image Section with Extra Space on Smartphones */}
+        <div className="relative w-[95%] sm:w-[90%] mx-auto h-[220px] sm:h-[370px] md:h-[400px] lg:h-screen xl:h-[650px] overflow-hidden 
+                        mt-6 sm:mt-12 md:mt-0"> {/* Added margin-top for small screens */}
           <Image
             src="/tedx/NextisNow-new.png"
             alt="Next is Now"
