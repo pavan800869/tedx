@@ -170,7 +170,7 @@ const speakersByYear = {
 const years = Object.keys(speakersByYear).sort((a, b) => Number(b) - Number(a));
 
 const SpeakerCards = () => {
-  const [selectedYear, setSelectedYear] = useState(years[years.length - 1]);
+  const [selectedYear, setSelectedYear] = useState(years[0]);
   const [selectedId, setSelectedId] = useState(null);
 
   return (
