@@ -159,10 +159,10 @@ const speakersByYear = {
     },
     {
         "name": "Nishanth Dongari",
-        "title": "Founder & CEO Hunar, Business 30 under 30",
+        "title": "Founder and Managing Director of PUR EV",
         "image": "/tedx/nishanth.jpg",
         "profileUrl": "https://www.ted.com/profiles/speaker3",
-        "description": "Dr. Nishanth Dongari is an esteemed innovator, entrepreneur, and academic, recognized as the Founder and Managing Director of PURE EV, a leading electric vehicle (EV) and battery technology company. With a strong research background in energy storage systems, he has spearheaded the development of high-performance lithium-ion batteries, accelerating the transition toward sustainable mobility solutions in India. Under his leadership, PURE EV has grown into a key player in the electric two-wheeler market, delivering eco-friendly transportation solutions that prioritize efficiency, affordability, and environmental consciousness. His groundbreaking contributions to clean energy and EV technology are shaping the future of smart and sustainable urban mobility."
+        "description": "Dr. Nishanth Dongari is an esteemed innovator, entrepreneur, and academic, recognized as the Founder and Managing Director of PUR EV, a leading electric vehicle (EV) and battery technology company. With a strong research background in energy storage systems, he has spearheaded the development of high-performance lithium-ion batteries, accelerating the transition toward sustainable mobility solutions in India. Under his leadership, PURE EV has grown into a key player in the electric two-wheeler market, delivering eco-friendly transportation solutions that prioritize efficiency, affordability, and environmental consciousness. His groundbreaking contributions to clean energy and EV technology are shaping the future of smart and sustainable urban mobility."
     },
     {
         "name": "Karthi Subbaraman",
