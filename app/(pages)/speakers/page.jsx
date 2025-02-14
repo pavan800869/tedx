@@ -166,17 +166,17 @@ const speakersByYear = {
     },
     {
         "name": "Karthi Subramanyan",
-        "title": "Founder and Managing Director of PURE EV",
+        "title": "Design Leadership at Salesforce",
         "image": "/tedx/karthi.png",
         "profileUrl": "https://www.ted.com/profiles/speaker3",
-        "description": "Dr. Nishanth Dongari is an esteemed innovator, entrepreneur, and academic, recognized as the Founder and Managing Director of PURE EV, a leading electric vehicle (EV) and battery technology company. With a strong research background in energy storage systems, he has spearheaded the development of high-performance lithium-ion batteries, accelerating the transition toward sustainable mobility solutions in India. Under his leadership, PURE EV has grown into a key player in the electric two-wheeler market, delivering eco-friendly transportation solutions that prioritize efficiency, affordability, and environmental consciousness. His groundbreaking contributions to clean energy and EV technology are shaping the future of smart and sustainable urban mobility."
+        "description": "A seasoned design leader currently driving Design Leadership at Salesforce, this individual is passionate about creating impactful user experiences and fostering innovation in product design. Beyond their role at Salesforce, they are also the Founder of #pifo, a not-for-profit foundation dedicated to supporting Product Innovators by providing resources, mentorship, and a collaborative environment focused on Betterment and Belonging. Their work emphasizes the importance of inclusive design, leadership, and social impact, shaping the future of product innovation through meaningful initiatives.",
     },
     {
         "name": "Nishitha Yogesh",
-        "title": "Founder and Managing Director of PURE EV",
+        "title": "Founder & CEO Hunar, Business 30 under 30",
         "image": "/tedx/nishitha2.png",
         "profileUrl": "https://www.ted.com/profiles/speaker3",
-        "description": "Dr. Nishanth Dongari is an esteemed innovator, entrepreneur, and academic, recognized as the Founder and Managing Director of PURE EV, a leading electric vehicle (EV) and battery technology company. With a strong research background in energy storage systems, he has spearheaded the development of high-performance lithium-ion batteries, accelerating the transition toward sustainable mobility solutions in India. Under his leadership, PURE EV has grown into a key player in the electric two-wheeler market, delivering eco-friendly transportation solutions that prioritize efficiency, affordability, and environmental consciousness. His groundbreaking contributions to clean energy and EV technology are shaping the future of smart and sustainable urban mobility."
+        "description": "Nishtha Yogesh is a visionary entrepreneur and the Founder & CEO of Hunar Online Courses, a platform dedicated to empowering individuals with creative skills through online learning. Recognized in Business World’s 30 Under 30, she has made significant contributions to the edtech industry by helping learners, especially women, turn their creative passions into careers. Nishtha holds an MBA from Babson College, one of the world’s leading institutions for entrepreneurship. Based in the Greater Hyderabad Area, she is well-connected in the industry, with 500+ professional connections on LinkedIn. Through her leadership at Hunar Online Courses, she continues to drive innovation in skill-based education, fostering financial independence and professional growth for thousands of students.",
     },
     {
         "name": "Agniv Vinod",
