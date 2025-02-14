@@ -154,28 +154,28 @@ const speakersByYear = {
         "name": "Riddhish Soni",
         "title": "CEO of Aumsat Technologies",
         "image": "/tedx/riddhish_soni.jpg",
-        "profileUrl": "https://www.ted.com/profiles/speaker2",
+        "profileUrl": "https://www.linkedin.com/in/riddhish-soni-b29225b8/",
         "description": "Riddhish Soni is the visionary CEO of Aumsat Technologies, a pioneering company specializing in satellite-based radar analytics for sustainable water management. Under his leadership, Aumsat Technologies has developed cutting-edge solutions to detect underground water sources, monitor pipeline leaks, and optimize water resource utilization. His work plays a crucial role in addressing global water security challenges by leveraging advanced space technology and artificial intelligence. With a strong commitment to sustainability, Riddhish aims to revolutionize the way governments and industries manage water resources, ensuring long-term ecological balance and efficient water conservation."
     },
     {
         "name": "Nishanth Dongari",
         "title": "Founder and Managing Director of PUR EV",
         "image": "/tedx/nishanth.jpg",
-        "profileUrl": "https://www.ted.com/profiles/speaker3",
+        "profileUrl": "https://www.linkedin.com/in/nishanthdongari/",
         "description": "Dr. Nishanth Dongari is an esteemed innovator, entrepreneur, and academic, recognized as the Founder and Managing Director of PUR EV, a leading electric vehicle (EV) and battery technology company. With a strong research background in energy storage systems, he has spearheaded the development of high-performance lithium-ion batteries, accelerating the transition toward sustainable mobility solutions in India. Under his leadership, PURE EV has grown into a key player in the electric two-wheeler market, delivering eco-friendly transportation solutions that prioritize efficiency, affordability, and environmental consciousness. His groundbreaking contributions to clean energy and EV technology are shaping the future of smart and sustainable urban mobility."
     },
     {
         "name": "Karthi Subbaraman",
         "title": "Design Leadership at Salesforce",
         "image": "/tedx/karthi.png",
-        "profileUrl": "https://www.ted.com/profiles/speaker3",
+        "profileUrl": "https://www.linkedin.com/in/skarthi/?originalSubdomain=in",
         "description": "A seasoned design leader currently driving Design Leadership at Salesforce, this individual is passionate about creating impactful user experiences and fostering innovation in product design. Beyond their role at Salesforce, they are also the Founder of #pifo, a not-for-profit foundation dedicated to supporting Product Innovators by providing resources, mentorship, and a collaborative environment focused on Betterment and Belonging. Their work emphasizes the importance of inclusive design, leadership, and social impact, shaping the future of product innovation through meaningful initiatives.",
     },
     {
         "name": "Nishtha Yogesh",
         "title": "Founder & CEO Hunar, Business 30 under 30",
         "image": "/tedx/nishitha2.png",
-        "profileUrl": "https://www.ted.com/profiles/speaker3",
+        "profileUrl": "https://www.linkedin.com/in/nishthay/",
         "description": "Nishtha Yogesh is a visionary entrepreneur and the Founder & CEO of Hunar Online Courses, a platform dedicated to empowering individuals with creative skills through online learning. Recognized in Business World’s 30 Under 30, she has made significant contributions to the edtech industry by helping learners, especially women, turn their creative passions into careers. Nishtha holds an MBA from Babson College, one of the world’s leading institutions for entrepreneurship. Based in the Greater Hyderabad Area, she is well-connected in the industry, with 500+ professional connections on LinkedIn. Through her leadership at Hunar Online Courses, she continues to drive innovation in skill-based education, fostering financial independence and professional growth for thousands of students.",
     },
     {
@@ -183,7 +183,7 @@ const speakersByYear = {
         "title": "Little Explorer, young video creator",
         "image": "/tedx/agniv.png",
         "profileUrl": "https://www.ted.com/profiles/speaker3",
-        "description": "A passionate young explorer with an insatiable curiosity, Agniv is on a mission to redefine the learning process by embracing knowledge beyond conventional textbooks. With an innovative mindset and a thirst for discovery, he challenges traditional educational barriers, choosing to learn at his own pace while following his diverse interests.Agniv is fluent in Tulu and Tamil and is currently expanding his linguistic skills by learning English and Kannada, showcasing his adaptability and eagerness to communicate across cultures. His enthusiasm extends beyond languages—he is deeply fascinated by rockets, robots, and speed, eagerly exploring these fields with boundless energy and excitement. Whether delving into the mechanics of futuristic technology or dreaming about space exploration, Agniv embodies the spirit of a lifelong learner, constantly pushing the boundaries of knowledge and innovation."
+        "description": "Agniv is a curious and creative child who loves rockets, robots, and all things fast! Encouraged to explore freely, he started his own channel at four, sharing his world with joy. His journey is entirely child-driven, allowing him to follow his passions and make his own choices.As an open-schooler, Agniv learns beyond textbooks, exploring the world at his own pace. From fun videos to global opportunities, his voice has inspired many."
     },
   ],
 };
