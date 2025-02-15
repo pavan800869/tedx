@@ -41,7 +41,9 @@ const TicketCard = ({
           )}
         </div>
         <p className="text-sm text-gray-400 mb-4">
-          Valid from {formatDate(startDate)} to {formatDate(endDate)}
+         {/* {formatDate(startDate)}{formatDate(endDate)} */}
+         {startDate}{endDate}
+         {/* Extended */}
         </p>
         {/* <ul className="mb-6">
           {features.map((feature, index) => (
