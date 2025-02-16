@@ -66,8 +66,8 @@ function NavBar() {
               ))}
             </div>
             <a
-              href="/register"
-              
+              href="https://aupulse.campx.in/aupulse/ums/public/form/679a61e1ea9ed55754a0df53"
+              target='_blank'
               rel="noopener noreferrer"
               className="block"
             >

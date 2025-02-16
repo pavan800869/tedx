@@ -12,8 +12,8 @@ const tickets = [
     },
     {
         type: 'Regular',
-        price: '--',
-        originalPrice: 2999,
+        price: 2999,
+        originalPrice: "",
         startDate: '-',
         endDate: '-',
         isActive: false,
