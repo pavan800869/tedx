@@ -153,7 +153,7 @@ const speakersByYear = {
     {
         "name": "Riddhish Soni",
         "title": "CEO of Aumsat Technologies",
-        "image": "/tedx/riddhish_soni.jpg",
+        "image": "/tedx/riddhish_soni.png",
         "profileUrl": "https://www.linkedin.com/in/riddhish-soni-b29225b8/",
         "description": "Riddhish Soni is the visionary CEO of Aumsat Technologies, a pioneering company specializing in satellite-based radar analytics for sustainable water management. Under his leadership, Aumsat Technologies has developed cutting-edge solutions to detect underground water sources, monitor pipeline leaks, and optimize water resource utilization. His work plays a crucial role in addressing global water security challenges by leveraging advanced space technology and artificial intelligence. With a strong commitment to sustainability, Riddhish aims to revolutionize the way governments and industries manage water resources, ensuring long-term ecological balance and efficient water conservation."
     },
