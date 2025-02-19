@@ -145,9 +145,9 @@ const speakersByYear = {
   2025: [
     {
         "name": "Sandilya Pisapati",
-        "title": "Violinist, Singer, and Composer in the Telugu Film Industry",
+        "title": "Violinist, Singer, and Music Composer in the Telugu Film Industry",
         "image": "/tedx/sandy.jpg",
-        "profileUrl": "https://www.ted.com/profiles/speaker1",
+        "profileUrl": "https://www.instagram.com/sandilya_pisapati?igsh=MTYwamlwYjR6a3lwOA==",
         "description": "Sandilya Pisapati is a distinguished musician renowned for his expertise as a violinist, singer, and composer in the Telugu film industry. With a remarkable ability to blend classical and contemporary styles, his compositions have significantly contributed to critically acclaimed films such as Manam and Bimbisara. As the leader of the fusion band Denique Grooves, he continues to push musical boundaries, creating innovative soundscapes that resonate with audiences worldwide. His deep understanding of music, combined with a passion for storytelling through sound, makes him an influential figure in the Indian music industry."
     },
     {
@@ -182,8 +182,15 @@ const speakersByYear = {
         "name": "Agniv Vinoth",
         "title": "Little Explorer, young video creator",
         "image": "/tedx/agniv.png",
-        "profileUrl": "https://www.ted.com/profiles/speaker3",
+        "profileUrl": "https://www.instagram.com/agniv_2018?igsh=MW55azFncXV6azRv",
         "description": "Agniv is a curious and creative child who loves rockets, robots, and all things fast! Encouraged to explore freely, he started his own channel at four, sharing his world with joy. His journey is entirely child-driven, allowing him to follow his passions and make his own choices.As an open-schooler, Agniv learns beyond textbooks, exploring the world at his own pace. From fun videos to global opportunities, his voice has inspired many."
+    },
+    {
+        "name": "Amala Akkineni",
+        "title": "Founder-Blue Cross, Director of Annapurna College of Film and Media, Indian Film Actress, Bharatanatyam Dancer, and Animal Welfare Advocate",
+        "image": "/tedx/amala.png",
+        "profileUrl": "https://www.instagram.com/akkineniamala?igsh=MWNjcTl4c2xyNGl6OA==",
+        "description": "Amala Akkineni is the Director of Annapurna College of Film and Media, a renowned Indian actress, a Bharatanatyam dancer, a philanthropist, and an animal welfare advocate. She is a true changemaker from cinema to education and animal rights, her journey is all about passion and purpose. At TEDxAnuragU 2025 - Next Is Now, she takes the stage to share how compassion, creativity, and conscious choices are shaping the future."
     },
   ],
 };
