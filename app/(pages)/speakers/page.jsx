@@ -187,18 +187,32 @@ const speakersByYear = {
     },
     {
         "name": "Amala Akkineni",
-        "title": "Founder-Blue Cross, Director of Annapurna College of Film and Media, Indian Film Actress, Bharatanatyam Dancer, and Animal Welfare Advocate",
+        "title": "Founder - Blue Cross, Director of ACFM, Indian Film Actress",
         "image": "/tedx/amala.png",
         "profileUrl": "https://www.instagram.com/akkineniamala?igsh=MWNjcTl4c2xyNGl6OA==",
         "description": "Amala Akkineni is the Director of Annapurna College of Film and Media, a renowned Indian actress, a Bharatanatyam dancer, a philanthropist, and an animal welfare advocate. She is a true changemaker from cinema to education and animal rights, her journey is all about passion and purpose. At TEDxAnuragU 2025 - Next Is Now, she takes the stage to share how compassion, creativity, and conscious choices are shaping the future."
     },
     {
-        "name": "Dr. Ravindranath Kancherla",
-        "title": "Chairman & MD, Global Hospitals Group",
-        "image": "/tedx/ravindranath.png",
+        "name": "Dr. Jayaprakash Narayan",
+        "title": "Former Public Administrator Founder, FDR",
+        "image": "/tedx/JP.png",
         "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "description": "Dr. Ravindranath Kancherla is a visionary in Surgical Gastroenterology and the founder of Global Hospitals Group. With over 25,000 laparoscopic surgeries, he has redefined healthcare excellence in India. As Non-Executive Independent Director and Chairman of Board of  Laurus Labs, his leadership extends beyond medicine. Dr. Ravindranath is dedicated to advancing medical education and innovation through his philanthropic initiatives."
+        "description": "Dr. Jayaprakash Narayan is an esteemed Indian public servant and reformer known for his contributions to governance and public administration. A former lAS officer and the founder of the Foundation for Democratic Reforms, he advocates for electoral transparency, administrative efficiency, and policy improvements. His work has significantly influenced governance reforms, citizen empowerment, and institutional transparency, inspiring efforts to enhance accountability and efficiency in public service."
     },
+    {
+        "name": "Ramakrishna Momidi",
+        "title": "A thought leader in MNC and Multi-Generational Diversity Strategist",
+        "image": "/tedx/RK_momidi.png",
+        "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "description": "Ramakrishna Momidi is a seasoned leader with over three decades of experience across various industries, including HR, consulting, research, and manufacturing. He currently serves as the Senior Vice President and Leader at a prominent leadership development institution. He is a thought leader in MNC and Multi-Generational Diversity Strategist and has held key leadership positions, leading strategic initiatives and driving organizational growth. He is widely recognized for his thought leadership in the areas of leadership, culture, and motivation."
+    },
+    // {
+    //     "name": "Dr. Ravindranath Kancherla",
+    //     "title": "Chairman & MD, Global Hospitals Group",
+    //     "image": "/tedx/ravindranath.png",
+    //     "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    //     "description": "Dr. Ravindranath Kancherla is a visionary in Surgical Gastroenterology and the founder of Global Hospitals Group. With over 25,000 laparoscopic surgeries, he has redefined healthcare excellence in India. As Non-Executive Independent Director and Chairman of Board of  Laurus Labs, his leadership extends beyond medicine. Dr. Ravindranath is dedicated to advancing medical education and innovation through his philanthropic initiatives."
+    // },
   ],
 };
 
