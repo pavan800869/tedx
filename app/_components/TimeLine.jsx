@@ -53,7 +53,7 @@ function TimeLine() {
           </div>
 
           {/* Register Button */}
-          <div className="text-right">
+          <div className="text-right max-sm:mt-6">
             <a
               href="https://aupulse.campx.in/aupulse/ums/public/form/679a61e1ea9ed55754a0df53"
               target='_blank'
