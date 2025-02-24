@@ -192,6 +192,13 @@ const speakersByYear = {
         "profileUrl": "https://www.instagram.com/akkineniamala?igsh=MWNjcTl4c2xyNGl6OA==",
         "description": "Amala Akkineni is the Director of Annapurna College of Film and Media, a renowned Indian actress, a Bharatanatyam dancer, a philanthropist, and an animal welfare advocate. She is a true changemaker from cinema to education and animal rights, her journey is all about passion and purpose. At TEDxAnuragU 2025 - Next Is Now, she takes the stage to share how compassion, creativity, and conscious choices are shaping the future."
     },
+    {
+        "name": "Dr. Ravindranath Kancherla",
+        "title": "Chairman & MD, Global Hospitals Group",
+        "image": "/tedx/ravindranath.png",
+        "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "description": "Dr. Ravindranath Kancherla is a visionary in Surgical Gastroenterology and the founder of Global Hospitals Group. With over 25,000 laparoscopic surgeries, he has redefined healthcare excellence in India. As Non-Executive Independent Director and Chairman of Board of  Laurus Labs, his leadership extends beyond medicine. Dr. Ravindranath is dedicated to advancing medical education and innovation through his philanthropic initiatives."
+    },
   ],
 };
 
