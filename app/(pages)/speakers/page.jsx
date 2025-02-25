@@ -199,13 +199,13 @@ const speakersByYear = {
         "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         "description": "Dr. Jayaprakash Narayan is an esteemed Indian public servant and reformer known for his contributions to governance and public administration. A former lAS officer and the founder of the Foundation for Democratic Reforms, he advocates for electoral transparency, administrative efficiency, and policy improvements. His work has significantly influenced governance reforms, citizen empowerment, and institutional transparency, inspiring efforts to enhance accountability and efficiency in public service."
     },
-    {
-        "name": "Ramakrishna Momidi",
-        "title": "A thought leader in MNC and Multi-Generational Diversity Strategist",
-        "image": "/tedx/RK_momidi.png",
-        "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "description": "Ramakrishna Momidi is a seasoned leader with over three decades of experience across various industries, including HR, consulting, research, and manufacturing. He currently serves as the Senior Vice President and Leader at a prominent leadership development institution. He is a thought leader in MNC and Multi-Generational Diversity Strategist and has held key leadership positions, leading strategic initiatives and driving organizational growth. He is widely recognized for his thought leadership in the areas of leadership, culture, and motivation."
-    },
+    // {
+    //     "name": "Ramakrishna Momidi",
+    //     "title": "A thought leader in MNC and Multi-Generational Diversity Strategist",
+    //     "image": "/tedx/RK_momidi.png",
+    //     "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    //     "description": "Ramakrishna Momidi is a seasoned leader with over three decades of experience across various industries, including HR, consulting, research, and manufacturing. He currently serves as the Senior Vice President and Leader at a prominent leadership development institution. He is a thought leader in MNC and Multi-Generational Diversity Strategist and has held key leadership positions, leading strategic initiatives and driving organizational growth. He is widely recognized for his thought leadership in the areas of leadership, culture, and motivation."
+    // },
     // {
     //     "name": "Dr. Ravindranath Kancherla",
     //     "title": "Chairman & MD, Global Hospitals Group",
