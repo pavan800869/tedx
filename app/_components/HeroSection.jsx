@@ -8,21 +8,23 @@ export default function HomeSection() {
     <main className="bg-black text-white relative">
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-between px-4 relative">
-        {/* Image Section with Extra Space on Smartphones */}
-        <div className="relative w-[90%] sm:w-[70%] mx-auto h-[170px] sm:h-[350px] md:h-[350px] lg:h-screen xl:h-[650px] overflow-hidden 
-                        mt-6 sm:mt-8 md:mt-0"> {/* Added margin-top for small screens */}
+        {/* Image Section with Responsive Adjustments */}
+        <div className="relative w-[90%] sm:w-[70%] mx-auto 
+                        h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[550px] 
+                        2xl:h-[450px] overflow-hidden mt-7 sm:mt-8 md:mt-20">
           <Image
             src="/tedx/NextisNow-new.png"
             alt="Next is Now"
             fill
-            className="object-cover object-center"
+            className="object-cover"
             priority
             sizes="(max-width: 640px) 95vw, 
                    (max-width: 768px) 90vw,
-                   (max-width: 1200px) 100vw,
-                   100vw"
+                   (max-width: 1024px) 80vw,
+                   (max-width: 1280px) 75vw,
+                   60vw"
             style={{
-                objectPosition: 'center',
+              objectPosition: 'center',
             }}
           />
         </div>
