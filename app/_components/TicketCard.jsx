@@ -41,9 +41,7 @@ const TicketCard = ({
           )}
         </div>
         <p className="text-sm text-gray-400 mb-4">
-         {/* {formatDate(startDate)}{formatDate(endDate)} */}
-         {startDate}{endDate}
-         {/* Extended */}
+          Valid till {formatDate(endDate)}
         </p>
         {/* <ul className="mb-6">
           {features.map((feature, index) => (
@@ -77,7 +75,7 @@ const TicketCard = ({
             whileTap={isActive ? { scale: 0.95 } : {}}
             disabled={!isActive}
           >
-            {isActive ? 'Buy Now' : 'Coming Soon'}
+            {isActive ? 'Buy Now' : 'Expired'}
           </motion.button>
         </Link>
       </div>
