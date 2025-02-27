@@ -201,10 +201,10 @@ const speakersByYear = {
     },
     {
         "name": "Ramakrishna Momidi",
-        "title": "A thought leader in MNC and Multi-Generational Diversity Strategist",
+        "title": "A leader and change-maker",
         "image": "/tedx/RK_momidi.png",
         "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "description": "Ramakrishna Momidi is a seasoned leader with over three decades of experience across various industries, including HR, consulting, research, and manufacturing. He currently serves as the Senior Vice President and Leader at a prominent leadership development institution. He is a thought leader in MNC and Multi-Generational Diversity Strategist and has held key leadership positions, leading strategic initiatives and driving organizational growth. He is widely recognized for his thought leadership in the areas of leadership, culture, and motivation."
+        "description": "Ramakrishna Momidi is a seasoned leader with over three decades of diverse experience spanning HR, consulting, research, and manufacturing. As the Senior Vice President and Leader at DU – The Leadership Center in India, Deloitte US – India Offices, he plays a pivotal role in shaping leadership development strategies. Throughout his career, he has spearheaded key strategic initiatives, driving organizational growth and transformation. Known for his thought leadership in leadership, culture, and motivation, he continues to inspire professionals and organizations alike."
     },
     // {
     //     "name": "Dr. Ravindranath Kancherla",
