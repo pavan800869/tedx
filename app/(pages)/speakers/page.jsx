@@ -157,13 +157,7 @@ const speakersByYear = {
         "profileUrl": "https://www.linkedin.com/in/riddhish-soni-b29225b8/",
         "description": "Riddhish Soni is the visionary CEO of Aumsat Technologies, a pioneering company specializing in satellite-based radar analytics for sustainable water management. Under his leadership, Aumsat Technologies has developed cutting-edge solutions to detect underground water sources, monitor pipeline leaks, and optimize water resource utilization. His work plays a crucial role in addressing global water security challenges by leveraging advanced space technology and artificial intelligence. With a strong commitment to sustainability, Riddhish aims to revolutionize the way governments and industries manage water resources, ensuring long-term ecological balance and efficient water conservation."
     },
-    {
-        "name": "Nishanth Dongari",
-        "title": "Founder and Managing Director of PUR EV",
-        "image": "/tedx/nishanth.jpg",
-        "profileUrl": "https://www.linkedin.com/in/nishanthdongari/",
-        "description": "Dr. Nishanth Dongari is an esteemed innovator, entrepreneur, and academic, recognized as the Founder and Managing Director of PUR EV, a leading electric vehicle (EV) and battery technology company. With a strong research background in energy storage systems, he has spearheaded the development of high-performance lithium-ion batteries, accelerating the transition toward sustainable mobility solutions in India. Under his leadership, PURE EV has grown into a key player in the electric two-wheeler market, delivering eco-friendly transportation solutions that prioritize efficiency, affordability, and environmental consciousness. His groundbreaking contributions to clean energy and EV technology are shaping the future of smart and sustainable urban mobility."
-    },
+    
     {
         "name": "Karthi Subbaraman",
         "title": "Design Leadership at Salesforce",
@@ -206,13 +200,13 @@ const speakersByYear = {
         "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         "description": "Ramakrishna Momidi is a seasoned leader with over three decades of diverse experience spanning HR, consulting, research, and manufacturing. As the Senior Vice President and Leader at DU – The Leadership Center in India, Deloitte US – India Offices, he plays a pivotal role in shaping leadership development strategies. Throughout his career, he has spearheaded key strategic initiatives, driving organizational growth and transformation. Known for his thought leadership in leadership, culture, and motivation, he continues to inspire professionals and organizations alike."
     },
-    // {
-    //     "name": "Dr. Ravindranath Kancherla",
-    //     "title": "Chairman & MD, Global Hospitals Group",
-    //     "image": "/tedx/ravindranath.png",
-    //     "profileUrl": "https://www.linkedin.com/in/ravindranath-kancherla-8bb79b25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    //     "description": "Dr. Ravindranath Kancherla is a visionary in Surgical Gastroenterology and the founder of Global Hospitals Group. With over 25,000 laparoscopic surgeries, he has redefined healthcare excellence in India. As Non-Executive Independent Director and Chairman of Board of  Laurus Labs, his leadership extends beyond medicine. Dr. Ravindranath is dedicated to advancing medical education and innovation through his philanthropic initiatives."
-    // },
+    {
+        "name": "Dr. B V R MOHAN REDDY",
+        "title": "Founder  Cyient, former chairperson,nasscom",
+        "image": "/tedx/bvr.png",
+        "profileUrl": "https://www.linkedin.com/in/bvrmohanreddy/",
+        "description": "A pioneer in India’s engineering services industry, Dr. B V R Mohan Reddy, Founder Chairman of Cyient, revolutionized outsourced engineering solutions for global giants like Boeing, Airbus, and Siemens. His contributions extend far beyond business, he is a passionate advocate for education and innovation, playing a key role in shaping institutions like IIT Hyderabad and IIT Roorkee. His relentless pursuit of technological advancement and leadership development continues to inspire the next generation of innovators."
+    },
   ],
 };
 
